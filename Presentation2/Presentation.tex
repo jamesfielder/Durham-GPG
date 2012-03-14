@@ -1,0 +1,369 @@
+\documentclass[xcolor=dvipsnames,usepdftitle=false]{beamer} 
+%\usecolortheme[named=BlueViolet]{structure} 
+\usecolortheme[RGB={83,13,88}]{structure} \usetheme[height=7mm]{Boadilla} 
+\setbeamertemplate{items}[ball] 
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols 
+
+\usefonttheme[onlylarge]{structuresmallcapsserif}
+\usefonttheme{professionalfonts}
+
+% Normal usepackage includes
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{amsthm}
+\usepackage{amsopn}
+\usepackage{subfigure}
+\usepackage{fancybox}
+
+%Set up command for logo in top right corner
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\newcommand{\MyLogo}{%
+	\begin{textblock}{14}(119.0,1.0) %logo position
+		\includegraphics[width=0.8cm]{pictures/logo_only.eps}
+	\end{textblock}
+}
+
+% This puts in a section ``title slide'' when \section command
+% is encountered.  Can easily be changed to subsection
+\AtBeginSection{
+\begin{frame}
+		\MyLogo
+\begin{center}
+		\structure{\Large \insertsection}
+	\end{center}
+\end{frame}
+}
+
+%Use some script greek letters
+\renewcommand\epsilon{\varepsilon}
+\renewcommand\phi{\varphi}
+\renewcommand\theta{\vartheta}
+
+%Macros for standard sets
+\newcommand{\newVar}[2]{\newcommand{#1}{\ensuremath{#2}\xspace}}
+\newVar\Naturals{\mathbb{N}}
+\newVar\Integers{\mathbb{Z}}
+\newVar\Rationals{\mathbb{Q}}
+\newVar\Reals{\mathbb{R}}
+\newVar\Complex{\mathbb{C}}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%Macros for math functions that take an argument
+\newcommand{\ldb}{\text{\textlbrackdbl}}
+\newcommand{\rdb}{\text{\textrbrackdbl}}
+
+\newcommand{\norm}[1]{\ensuremath{\lVert#1\rVert}}
+\newcommand{\abs}[1]{\ensuremath{\lvert#1\rvert}}
+\newcommand{\ceil}[1]{\ensuremath{\lceil#1\rceil}}
+\newcommand{\floor}[1]{\ensuremath{\lfloor#1\rfloor}}
+\newcommand{\set}[1]{\ensuremath{\{#1\}}}
+\newcommand{\angular}[1]{\ensuremath{\langle#1\rangle}}
+\newcommand{\paren}[1]{\ensuremath{(#1)}}
+\newcommand{\sset}[1]{ \{ #1 \} }
+\newcommand{\dset}[2]{ \{ #1 \mid #2 \} }
+
+\newcommand{\Norm}[1]{\ensuremath{\left\lVert#1\right\rVert}}
+\newcommand{\Abs}[1]{\ensuremath{\left\lvert#1\right\rvert}}
+\newcommand{\Ceil}[1]{\ensuremath{\left\lceil#1\right\rceil}}
+\newcommand{\Floor}[1]{\ensuremath{\left\lfloor#1\right\rfloor}}
+\newcommand{\Set}[1]{\ensuremath{\left\{#1\right\}}}
+\newcommand{\Angular}[1]{\ensuremath{\left\langle#1\right\rangle}}
+\newcommand{\Paren}[1]{\ensuremath{\left(#1\right)}}
+\newcommand{\Ssett}[1]{ \{ #1 \} }
+\newcommand{\Dset}[2]{ \{ #1 \mid #2 \} }
+
+\newcommand{\Average}[1]{\ensuremath{\{ \! \! \{ #1 \} \! \! \}} }
+\newcommand{\Jump}[1]{\ensuremath{\ldb #1 \rdb}}
+\newcommand{\average}[1]{\ensuremath{\{ \! \! \{ #1 \} \! \! \}} }
+\newcommand{\jump}[1]{\ensuremath{\ldb #1 \rdb}}
+\newcommand{\diam}[1]{\ensuremath{ \mathrm{diam}(#1) }}
+
+\newcommand\st{\;|\;}
+
+%Document specific commands
+\newcommand{\ve}{\varepsilon}
+\newcommand{\dR}{\Reals}
+\newcommand{\pO}{{\partial \Omega}}
+\newcommand{\pOp}{{\partial \Omega^+}}
+\newcommand{\pOm}{{\partial \Omega^-}}
+\newcommand{\en}[1]{{|\!|\!| #1 |\!|\!|}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\beaa}{\begin{eqnarray*}}
+\newcommand{\eeaa}{\end{eqnarray*}}
+
+\newcommand{\T}[0]{{\ensuremath{\mathcal{T}}}}
+\newcommand{\Th}[0]{{\ensuremath{\mathcal{T}_h}}}
+\newcommand{\Tp}[0]{{\ensuremath{T^+}}}
+\newcommand{\Tm}[0]{{\ensuremath{T^-}}}
+\newcommand{\LO}[0]{{\ensuremath{L^2 (\Omega)}}}
+\newcommand{\LT}[0]{{\ensuremath{L^2 (T)}}}
+\newcommand{\LTp}[0]{{\ensuremath{L^2 (\Tp)}}}
+\newcommand{\LTm}[0]{{\ensuremath{L^2 (\Tm)}}}
+\newcommand{\Le}[0]{{\ensuremath{L^2 (e)}}}
+\newcommand{\LeJ}[0]{{\ensuremath{L^2 (J)}}}
+\newcommand{\TinT}[0]{{\ensuremath{T \in \Th}}}
+\newcommand{\C}[0]{\ensuremath{{\mathcal{C}}}}
+\newcommand{\D}[0]{\ensuremath{{\mathcal{D}}}}
+\newcommand{\ed}[0]{\ensuremath{{\epsilon \Delta}}}
+\newcommand{\edh}[0]{\ensuremath{{\epsilon \Delta,h}}}
+\newcommand{\zeh}[0]{{\ensuremath{0,\epsilon,h}}}
+
+\newcommand{\HOneZero}[0]{\ensuremath{H^1_0(\Omega)}}
+
+\newcommand{\Eho}[0]{\ensuremath{{\mathcal{E}_h^o}}}
+\newcommand{\Eh}[0]{\ensuremath{{\mathcal{E}_h}}}
+\newcommand{\einEh}[0]{{\ensuremath{e \in \Eh}}}
+\newcommand{\einEho}[0]{{\ensuremath{e \in \EHo}}}
+
+\newcommand{\pOC}[0]{{\partial \Omega_{\C}}}
+\newcommand{\pOD}[0]{{\partial \Omega_{\D}}}
+\newcommand{\OC}[0]{{\Omega_{\C}}}
+\newcommand{\OD}[0]{{\Omega_{\D}}}
+\newcommand{\LOC}[0]{{\ensuremath{L^2 (\OC)}}}
+\newcommand{\HOC}[0]{{\ensuremath{H^1 (\OC)}}}
+\newcommand{\LOCJ}[0]{{\ensuremath{L^2 ({\Omega_{\C}^J})}}}
+\newcommand{\HOCJ}[0]{{\ensuremath{H^1 ({\Omega_{\C}^J})}}}
+\newcommand{\HT}[0]{{\ensuremath{H^1 (T)}}}
+\newcommand{\Linfty}[0]{\ensuremath{{L^{\infty} (\Omega)}}}
+\newcommand{\LinftyC}[0]{\ensuremath{{L^{\infty} (\OC)}}}
+\newcommand{\LinftyD}[0]{\ensuremath{{L^{\infty} (\OD)}}}
+\newcommand{\LinftyT}[0]{\ensuremath{{L^{\infty} (T)}}}
+\newcommand{\LinftyA}[1]{\ensuremath{{L^{\infty}(#1)}}}
+\newcommand{\LpOC}[0]{{\ensuremath{L^2 (\pOC)}}}
+\newcommand{\GC}[0]{{\ensuremath{\Gamma_\C}}}
+\newcommand{\GD}[0]{{\ensuremath{\Gamma_\D}}}
+
+\newcommand{\TC}[0]{{\T_{\C}}}
+\newcommand{\TD}[0]{{\T_{\D}}}
+\newcommand{\TinTC}[0]{{\ensuremath{T \in \TC}}}
+\newcommand{\TinTD}[0]{{\ensuremath{T \in \TD}}}
+\newcommand{\pTm}[0]{\ensuremath{{\partial \Tm}}}
+\newcommand{\pTp}[0]{\ensuremath{{\partial \Tp}}}
+
+\newcommand{\CG}[0]{\ensuremath{\text{cG}}}
+\newcommand{\CDG}[0]{\ensuremath{\text{cdG}}}
+\newcommand{\DG}[0]{\ensuremath{\text{dG}}}
+\newcommand{\SDG}[0]{{\ensuremath{\text{SdG}}}}
+\newcommand{\rhobar}[0]{\ensuremath{\overline{\rho}}}
+
+\newcommand{\vectau}[0]{\ensuremath{\boldsymbol{\tau}}}
+
+\newcommand{\Poly}[0]{\ensuremath{\mathcal{P}}}
+
+\newcommand{\Obar}[0]{\ensuremath{\overline{\Omega}}}
+
+\renewcommand\qedsymbol{\ensuremath{\square}}
+
+\newcommand{\ex}{{\rm e}}
+\newcommand{\trans}[1]{{#1}^{\ensuremath{\mathsf{T}}}}
+
+\newcommand{\sqrtdivb}[0]{\ensuremath{\sqrt{-\nabla \cdot b}}}
+\newcommand{\half}[0]{\ensuremath{\frac{1}{2}}}
+\newcommand{\fhalf}[0]{\ensuremath{{1/2}}}
+
+\newcommand{\calS}[0]{\ensuremath{\mathcal{S}}}
+\newcommand{\SZ}[0]{\ensuremath{\mathcal{SZ}}}
+\newcommand{\ProjSZ}[0]{\ensuremath{{\Pi_h^\SZ}}}
+
+\newcommand{\Lproj}[0]{{\ensuremath{\Pi_h}}}
+\newcommand{\LprojT}[0]{\ensuremath{\Pi_{h,T}}}
+\newcommand{\LprojL}[0]{{\ensuremath{\Pi_h^{L^2}}}}
+\newcommand{\LprojLT}[0]{{\ensuremath{\Pi_{h,T}^{L^2}}}}
+\newcommand{\LprojH}[0]{{\ensuremath{\Pi_h^{H^1}}}}
+
+\newcommand{\bdotnabv}[0]{{\ensuremath{b \cdot \nabla v}}}
+
+\newcommand{\Ltwo}[1]{\ensuremath{{L^2 (#1)}}}
+\newcommand{\Spart}[0]{\ensuremath{{\mathcal{S}}}}
+\newcommand{\Hnorm}[2]{\ensuremath{{H^{#1}({#2})}}}
+\newcommand{\LJ}[0]{\ensuremath{\Ltwo{J}}}
+\newcommand{\Wdiv}[1]{\ensuremath{{W^\infty (\mathrm{div},#1)}}}
+
+\newcommand{\lowlight}[1]{\textcolor[gray]{0.8}{#1}}
+\newcommand{\piD}[0]{\ensuremath{{\pi,\D}}}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+
+
+% title page stuff
+\title[Short Title]{Long Title}
+\author{Your Name}
+\institute[Durham]{}
+%\titlegraphic{\includegraphics[height=1.5cm]{pictures/logo_purple.eps}}
+\date[29 July 2010]{Joint work with X (from here),\\Y (from here) and Z (from here)}
+\institute[Durham]{\includegraphics[height=1.5cm]{pictures/logo_purple.eps}}
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Outline}
+	\tableofcontents
+\end{frame}
+
+%==================================================================================================%
+\section{Section 1}
+
+%--------------------------------------------------------------------------------------------------%
+\subsection*{Subsection} %For your own organisation (as far as I can tell) %
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Frame Title}
+	\begin{equation} 
+		\begin{split}
+		-\epsilon \Delta u + b \cdot \nabla u & = f  \quad \mathrm{in}~ \Omega \subset \mathbb{R}^d  \nonumber\\
+		u & = 0   \quad \mathrm{on}~ \pO \nonumber
+		\end{split}
+	\end{equation}
+	Look at these equations...
+
+	\begin{theorem}
+		A Theorem
+		\begin{equation}
+			- \half \nabla \cdot b \ge \rho \ge 0. \nonumber
+		\end{equation}
+	\end{theorem}
+	\begin{proof}
+		A Proof
+	\end{proof}
+
+\end{frame}
+
+%--------------------------------------------------------------------------------------------------%
+\subsection*{Another Subsection}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Frame Title}
+	There are some pictures below...
+	\begin{figure}[htb]
+		\setcounter{subfigure}{0}
+		\centering
+		\subfigure[$\epsilon = 0.1$]{\includegraphics[width=0.32\textwidth]{pictures/1d_e=0-1.eps}}
+		\subfigure[$\epsilon = 0.01$]{\includegraphics[width=0.32\textwidth]{pictures/1d_e=0-01.eps}}
+		\subfigure[$\epsilon = 0.001$]{\includegraphics[width=0.32\textwidth]{pictures/1d_e=0-001.eps}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Another Frame}
+	Some equations and pictures...
+	\begin{equation} 
+		\begin{split}
+		-0.01 \Delta u + (-1,0)^\top \cdot \nabla u & = 1  \quad \mathrm{in}~ \Omega \subset \mathbb{R}^d  \nonumber\\
+		u & = 0   \quad \mathrm{on}~ \pO \nonumber
+		\end{split}
+	\end{equation}
+	\begin{figure}[htb]
+		\setcounter{subfigure}{0}
+		\centering
+		\subfigure[Standard plot]{\includegraphics[width=0.48\textwidth]{pictures/2d_cG_plot_e=0-01.eps}}
+		\subfigure[Temperature map]{\includegraphics[width=0.48\textwidth]{pictures/2d_cG_tempmap_e=0-01.eps}}
+	\end{figure}
+\end{frame}
+
+%==================================================================================================%
+\section{Section 2}
+
+%--------------------------------------------------------------------------------------------------%
+\subsection*{Another one}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Frame Title}
+	A definition...
+	\begin{definition}[Something to Define]
+		Some text...
+		\begin{equation}
+			B_{\epsilon}(u_h,v) := \epsilon (\nabla u_h, \nabla v) + (b.\nabla u_h, v) = (f,v) \quad \forall v \in V_h. \nonumber
+		\end{equation}
+	\end{definition}
+
+\end{frame}
+
+%--------------------------------------------------------------------------------------------------%
+\subsection*{Add more as needed}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{more?}
+	
+\end{frame}
+
+%--------------------------------------------------------------------------------------------------%
+
+%==================================================================================================%
+\section{Section 3}
+
+%--------------------------------------------------------------------------------------------------%
+\subsection*{Definitions and derivation}
+
+
+\begin{frame}
+	\MyLogo
+	listing things...
+	\begin{itemize}
+		\item $\Gamma$ the union of boundary faces (those in $\pO$).
+		\item For $e \in \Eho$, $T^+$ is the downwind cell, $T^-$ the upwind cell as determined by $b \cdot n$ on the face from each cell, $n$ being the outward pointing normal.
+		\item For $e \in \Eho$ the jump $\jump{\cdot}$ and average $\average{\cdot}$ are defined by
+			\begin{equation}
+				\begin{split}
+					\jump{\nu} = \nu^+ n^+ + \nu^- n^-, &\quad \jump{\vectau} = \vectau^+ \cdot n^+ + \vectau^- \cdot n^- \nonumber \\
+					\average{\nu} = \half (\nu^+ + \nu^-), &\quad \Average{\vectau} = \frac{1}{2} (\vectau^+ + \vectau^-). \nonumber
+				\end{split}
+			\end{equation}
+		\item On the boundary these become
+			\begin{equation}
+				\jump{\nu} = \nu n, \quad \average{\nu} = \nu, \quad \average{\vectau} = \tau. \nonumber
+			\end{equation}
+		\item A very useful identity
+			\begin{equation}
+				\sum_{\TinT} \int_{\partial T} \nu \vectau \cdot n = \int_{e\in \Eh} \jump{\nu} \cdot \average{\vectau} + \int_{e\in \Eho} \average{\nu} \jump{\vectau} \nonumber
+			\end{equation}
+	\end{itemize}
+\end{frame}
+
+
+%==================================================================================================%
+\section{Section 4}
+
+%--------------------------------------------------------------------------------------------------%
+
+\subsection*{Further work}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{Future work on...}
+	\begin{itemize}
+		\item Idea 1.
+		\item \textcolor{Gray}{Idea 2.}
+		\item \textcolor{Gray}{Idea 3.}
+	\end{itemize}
+	
+	Extra info...
+\end{frame}
+
+\subsection*{References}
+
+\begin{frame}
+	\MyLogo
+	\frametitle{References}
+	\tiny{
+	\bibliographystyle{apalike}
+	\bibliography{../../../Bibliography/full_bibliography.bib}} % Replace with path to your .bib file
+\end{frame}
+
+
+
+\end{document}
