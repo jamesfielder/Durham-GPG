@@ -17,7 +17,6 @@
 \usepackage{amsopn}
 \usepackage{subfigure}
 \usepackage{fancybox}
-\usepackage{hyperref}
 
 %Set up command for logo in top right corner
 \usepackage[absolute,overlay]{textpos}
@@ -212,84 +211,45 @@
 %\end{frame}
 
 %==================================================================================================%
+\section{Section 1}
+
 %--------------------------------------------------------------------------------------------------%
+\subsection*{Subsection} %For your own organisation (as far as I can tell) %
 
-\begin{frame}{Introduction}
-What the current situation is \& how insecure email is at the moment \\
-What is GPG\\
-Why use it\\
-How do I use it\\
+\begin{frame}
+	\MyLogo
+	\frametitle{Frame Title}
+	\begin{equation} 
+		\begin{split}
+		-\epsilon \Delta u + b \cdot \nabla u & = f  \quad \mathrm{in}~ \Omega \subset \mathbb{R}^d  \nonumber\\
+		u & = 0   \quad \mathrm{on}~ \pO \nonumber
+		\end{split}
+	\end{equation}
+	Look at these equations...
 
-
-\end{frame}
-
-\begin{frame}{Introduction}
-Who are we aiming this talk at?
-All of CompSoc (current \& alumni)
-
-All of Science Faculty...?
-Physics, Maths, CS, Engineering, Bio / Chem\\
-
-DSU\\
-
-Business School\\
-Politics\\
-Economics\\
-Psychology
-
+	\begin{theorem}
+		A Theorem
+		\begin{equation}
+			- \half \nabla \cdot b \ge \rho \ge 0. \nonumber
+		\end{equation}
+	\end{theorem}
+	\begin{proof}
+		A Proof
+	\end{proof}
 
 \end{frame}
 
 
+\subsection*{References}
 
-\begin{frame}{The Pitch}
-The Email Pitch\\
-
-Why does this matter?\\
-
-Would you be happy to send all your private mail on postcards? This is what you're currently doing with all your emails. Anybody en-route can read your emails, and 
-
-CYBERWAR
-
-
-
-
+\begin{frame}
+	\MyLogo
+	\frametitle{References}
+	\tiny{
+	\bibliographystyle{apalike}
+	\bibliography{../../../Bibliography/full_bibliography.bib}} % Replace with path to your .bib file
 \end{frame}
-
-
-\begin{frame}{More details}
-
-\url{http://gpg.ducs.org.uk}
-
-\end{frame}
-
-
-
-
-
-
-
-
 
 
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
