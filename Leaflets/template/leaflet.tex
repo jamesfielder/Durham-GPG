@@ -131,22 +131,17 @@ notumble, %% -- turns bottom page over for proofreading
 
 \section{What is GPG?}
 
-\textbf{GPG}, or The GNU Privacy Guard is, in a nutshell, a free and easy way to securely send and receive emails. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to care about their privacy.\\
+\textbf{GPG}, or The GNU Privacy Guard is, in a nutshell, \textit{a free and easy way to send and receive emails securely}. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to care about their privacy.\\
 \textbf{GPG} allows you to send \textbf{completely secure} emails to anyone else with an email address and a key.
 
-\section{Requirements}
+\section{How does it work?}
+To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This will mean that to anyone without the right password (or `key') the message will look like undecipherable random noise. As you may not have ever met the person you're emailing, you probably won't have a way of agreeing a password (key) together without the possibility that someone else could have intercepted it. Instead, conceptually, you create an electronic padlock and key. You can't send anyone a copy of the padlock's key over the internet as someone could copy it, but instead you can send out an unlocked padlock to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but can't `unlock' (decrypt) it -- only you, the person with the key can do that.\\
 
-Using the \Lclass{leaflet} class requires that the final
-document is created in PostScript or PDF format, using
 \begin{itemize}
-  \item \TeX{} and \Lprog{dvips}, or
-  \item pdf\TeX{}, or
-  \item V\TeX{} in PS or PDF mode.
+  \item Test Item
+  \item two and
+  \item three
 \end{itemize}
-(Some other drivers supported by standard \LaTeX{} work as well.)
-
-The non-standard macro package \Lpack{everyshi} \cite{cit:everyshi} is
-used by the \Lclass{leaflet} class.
 
 
 
