@@ -1,0 +1,295 @@
+\documentclass[xcolor=dvipsnames,usepdftitle=false]{beamer} 
+%\usecolortheme[named=BlueViolet]{structure} 
+%\usecolortheme[RGB={83,13,88}]{structure} \usetheme[height=7mm]{Boadilla} 
+\setbeamertemplate{items}[ball] 
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols 
+
+\usefonttheme[onlylarge]{structuresmallcapsserif}
+\usefonttheme{professionalfonts}
+
+% Normal usepackage includes
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{amsthm}
+\usepackage{amsopn}
+\usepackage{subfigure}
+\usepackage{fancybox}
+\usepackage{hyperref}
+
+%Set up command for logo in top right corner
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\newcommand{\MyLogo}{%
+	\begin{textblock}{14}(119.0,1.0) %logo position
+		\includegraphics[width=0.8cm]{pictures/logo_only.eps}
+	\end{textblock}
+}
+
+% This puts in a section ``title slide'' when \section command
+% is encountered.  Can easily be changed to subsection
+\AtBeginSection{
+\begin{frame}
+		\MyLogo
+\begin{center}
+		\structure{\Large \insertsection}
+	\end{center}
+\end{frame}
+}
+
+%Use some script greek letters
+\renewcommand\epsilon{\varepsilon}
+\renewcommand\phi{\varphi}
+\renewcommand\theta{\vartheta}
+
+%Macros for standard sets
+\newcommand{\newVar}[2]{\newcommand{#1}{\ensuremath{#2}\xspace}}
+\newVar\Naturals{\mathbb{N}}
+\newVar\Integers{\mathbb{Z}}
+\newVar\Rationals{\mathbb{Q}}
+\newVar\Reals{\mathbb{R}}
+\newVar\Complex{\mathbb{C}}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%Macros for math functions that take an argument
+\newcommand{\ldb}{\text{\textlbrackdbl}}
+\newcommand{\rdb}{\text{\textrbrackdbl}}
+
+\newcommand{\norm}[1]{\ensuremath{\lVert#1\rVert}}
+\newcommand{\abs}[1]{\ensuremath{\lvert#1\rvert}}
+\newcommand{\ceil}[1]{\ensuremath{\lceil#1\rceil}}
+\newcommand{\floor}[1]{\ensuremath{\lfloor#1\rfloor}}
+\newcommand{\set}[1]{\ensuremath{\{#1\}}}
+\newcommand{\angular}[1]{\ensuremath{\langle#1\rangle}}
+\newcommand{\paren}[1]{\ensuremath{(#1)}}
+\newcommand{\sset}[1]{ \{ #1 \} }
+\newcommand{\dset}[2]{ \{ #1 \mid #2 \} }
+
+\newcommand{\Norm}[1]{\ensuremath{\left\lVert#1\right\rVert}}
+\newcommand{\Abs}[1]{\ensuremath{\left\lvert#1\right\rvert}}
+\newcommand{\Ceil}[1]{\ensuremath{\left\lceil#1\right\rceil}}
+\newcommand{\Floor}[1]{\ensuremath{\left\lfloor#1\right\rfloor}}
+\newcommand{\Set}[1]{\ensuremath{\left\{#1\right\}}}
+\newcommand{\Angular}[1]{\ensuremath{\left\langle#1\right\rangle}}
+\newcommand{\Paren}[1]{\ensuremath{\left(#1\right)}}
+\newcommand{\Ssett}[1]{ \{ #1 \} }
+\newcommand{\Dset}[2]{ \{ #1 \mid #2 \} }
+
+\newcommand{\Average}[1]{\ensuremath{\{ \! \! \{ #1 \} \! \! \}} }
+\newcommand{\Jump}[1]{\ensuremath{\ldb #1 \rdb}}
+\newcommand{\average}[1]{\ensuremath{\{ \! \! \{ #1 \} \! \! \}} }
+\newcommand{\jump}[1]{\ensuremath{\ldb #1 \rdb}}
+\newcommand{\diam}[1]{\ensuremath{ \mathrm{diam}(#1) }}
+
+\newcommand\st{\;|\;}
+
+%Document specific commands
+\newcommand{\ve}{\varepsilon}
+\newcommand{\dR}{\Reals}
+\newcommand{\pO}{{\partial \Omega}}
+\newcommand{\pOp}{{\partial \Omega^+}}
+\newcommand{\pOm}{{\partial \Omega^-}}
+\newcommand{\en}[1]{{|\!|\!| #1 |\!|\!|}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\beaa}{\begin{eqnarray*}}
+\newcommand{\eeaa}{\end{eqnarray*}}
+
+\newcommand{\T}[0]{{\ensuremath{\mathcal{T}}}}
+\newcommand{\Th}[0]{{\ensuremath{\mathcal{T}_h}}}
+\newcommand{\Tp}[0]{{\ensuremath{T^+}}}
+\newcommand{\Tm}[0]{{\ensuremath{T^-}}}
+\newcommand{\LO}[0]{{\ensuremath{L^2 (\Omega)}}}
+\newcommand{\LT}[0]{{\ensuremath{L^2 (T)}}}
+\newcommand{\LTp}[0]{{\ensuremath{L^2 (\Tp)}}}
+\newcommand{\LTm}[0]{{\ensuremath{L^2 (\Tm)}}}
+\newcommand{\Le}[0]{{\ensuremath{L^2 (e)}}}
+\newcommand{\LeJ}[0]{{\ensuremath{L^2 (J)}}}
+\newcommand{\TinT}[0]{{\ensuremath{T \in \Th}}}
+\newcommand{\C}[0]{\ensuremath{{\mathcal{C}}}}
+\newcommand{\D}[0]{\ensuremath{{\mathcal{D}}}}
+\newcommand{\ed}[0]{\ensuremath{{\epsilon \Delta}}}
+\newcommand{\edh}[0]{\ensuremath{{\epsilon \Delta,h}}}
+\newcommand{\zeh}[0]{{\ensuremath{0,\epsilon,h}}}
+
+\newcommand{\HOneZero}[0]{\ensuremath{H^1_0(\Omega)}}
+
+\newcommand{\Eho}[0]{\ensuremath{{\mathcal{E}_h^o}}}
+\newcommand{\Eh}[0]{\ensuremath{{\mathcal{E}_h}}}
+\newcommand{\einEh}[0]{{\ensuremath{e \in \Eh}}}
+\newcommand{\einEho}[0]{{\ensuremath{e \in \EHo}}}
+
+\newcommand{\pOC}[0]{{\partial \Omega_{\C}}}
+\newcommand{\pOD}[0]{{\partial \Omega_{\D}}}
+\newcommand{\OC}[0]{{\Omega_{\C}}}
+\newcommand{\OD}[0]{{\Omega_{\D}}}
+\newcommand{\LOC}[0]{{\ensuremath{L^2 (\OC)}}}
+\newcommand{\HOC}[0]{{\ensuremath{H^1 (\OC)}}}
+\newcommand{\LOCJ}[0]{{\ensuremath{L^2 ({\Omega_{\C}^J})}}}
+\newcommand{\HOCJ}[0]{{\ensuremath{H^1 ({\Omega_{\C}^J})}}}
+\newcommand{\HT}[0]{{\ensuremath{H^1 (T)}}}
+\newcommand{\Linfty}[0]{\ensuremath{{L^{\infty} (\Omega)}}}
+\newcommand{\LinftyC}[0]{\ensuremath{{L^{\infty} (\OC)}}}
+\newcommand{\LinftyD}[0]{\ensuremath{{L^{\infty} (\OD)}}}
+\newcommand{\LinftyT}[0]{\ensuremath{{L^{\infty} (T)}}}
+\newcommand{\LinftyA}[1]{\ensuremath{{L^{\infty}(#1)}}}
+\newcommand{\LpOC}[0]{{\ensuremath{L^2 (\pOC)}}}
+\newcommand{\GC}[0]{{\ensuremath{\Gamma_\C}}}
+\newcommand{\GD}[0]{{\ensuremath{\Gamma_\D}}}
+
+\newcommand{\TC}[0]{{\T_{\C}}}
+\newcommand{\TD}[0]{{\T_{\D}}}
+\newcommand{\TinTC}[0]{{\ensuremath{T \in \TC}}}
+\newcommand{\TinTD}[0]{{\ensuremath{T \in \TD}}}
+\newcommand{\pTm}[0]{\ensuremath{{\partial \Tm}}}
+\newcommand{\pTp}[0]{\ensuremath{{\partial \Tp}}}
+
+\newcommand{\CG}[0]{\ensuremath{\text{cG}}}
+\newcommand{\CDG}[0]{\ensuremath{\text{cdG}}}
+\newcommand{\DG}[0]{\ensuremath{\text{dG}}}
+\newcommand{\SDG}[0]{{\ensuremath{\text{SdG}}}}
+\newcommand{\rhobar}[0]{\ensuremath{\overline{\rho}}}
+
+\newcommand{\vectau}[0]{\ensuremath{\boldsymbol{\tau}}}
+
+\newcommand{\Poly}[0]{\ensuremath{\mathcal{P}}}
+
+\newcommand{\Obar}[0]{\ensuremath{\overline{\Omega}}}
+
+\renewcommand\qedsymbol{\ensuremath{\square}}
+
+\newcommand{\ex}{{\rm e}}
+\newcommand{\trans}[1]{{#1}^{\ensuremath{\mathsf{T}}}}
+
+\newcommand{\sqrtdivb}[0]{\ensuremath{\sqrt{-\nabla \cdot b}}}
+\newcommand{\half}[0]{\ensuremath{\frac{1}{2}}}
+\newcommand{\fhalf}[0]{\ensuremath{{1/2}}}
+
+\newcommand{\calS}[0]{\ensuremath{\mathcal{S}}}
+\newcommand{\SZ}[0]{\ensuremath{\mathcal{SZ}}}
+\newcommand{\ProjSZ}[0]{\ensuremath{{\Pi_h^\SZ}}}
+
+\newcommand{\Lproj}[0]{{\ensuremath{\Pi_h}}}
+\newcommand{\LprojT}[0]{\ensuremath{\Pi_{h,T}}}
+\newcommand{\LprojL}[0]{{\ensuremath{\Pi_h^{L^2}}}}
+\newcommand{\LprojLT}[0]{{\ensuremath{\Pi_{h,T}^{L^2}}}}
+\newcommand{\LprojH}[0]{{\ensuremath{\Pi_h^{H^1}}}}
+
+\newcommand{\bdotnabv}[0]{{\ensuremath{b \cdot \nabla v}}}
+
+\newcommand{\Ltwo}[1]{\ensuremath{{L^2 (#1)}}}
+\newcommand{\Spart}[0]{\ensuremath{{\mathcal{S}}}}
+\newcommand{\Hnorm}[2]{\ensuremath{{H^{#1}({#2})}}}
+\newcommand{\LJ}[0]{\ensuremath{\Ltwo{J}}}
+\newcommand{\Wdiv}[1]{\ensuremath{{W^\infty (\mathrm{div},#1)}}}
+
+\newcommand{\lowlight}[1]{\textcolor[gray]{0.8}{#1}}
+\newcommand{\piD}[0]{\ensuremath{{\pi,\D}}}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+
+
+% title page stuff
+\title[GPG Key Signing Party]{GPG: A Key Signing Party}
+\author{James Fielder \& Martin Dehnel}
+\institute[Durham]{}
+%\titlegraphic{\includegraphics[height=1.5cm]{pictures/logo_purple.eps}}
+\date[14 May 2012]{Durham University Computing Society}
+\institute[Durham]{\includegraphics[height=1.5cm]{pictures/logo_purple.eps}}
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+%\begin{frame}
+%	\MyLogo
+%	\frametitle{Outline}
+%	\tableofcontents
+%\end{frame}
+
+%==================================================================================================%
+%--------------------------------------------------------------------------------------------------%
+
+\begin{frame}{Introduction}
+What the current situation is \& how insecure email is at the moment \\
+What is GPG\\
+Why use it\\
+How do I use it\\
+
+
+\end{frame}
+
+\begin{frame}{Introduction}
+Who are we aiming this talk at?
+All of CompSoc (current \& alumni?)
+
+All of Science Faculty...?
+Physics, Maths, CS, Engineering, Bio / Chem\\
+
+DSU\\
+
+Business School\\
+Politics\\
+Economics\\
+Psychology
+
+
+\end{frame}
+
+
+
+\begin{frame}{The Pitch}
+The Email Pitch\\
+
+Why does this matter?\\
+
+Would you be happy to send all your private mail on postcards? This is what you're currently doing with all your emails. Anybody en-route can read your emails, and 
+
+CYBERWAR
+
+
+
+
+\end{frame}
+
+
+\begin{frame}{More details}
+
+\url{http://gpg.ducs.org.uk}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

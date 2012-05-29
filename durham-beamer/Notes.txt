@@ -1,0 +1,10 @@
+Thanks to John Chapman again for this donation.
+
+To produce the presentation:
+
+- Build with Latex (twice because bibtex was used)
+- convert to .ps (dvips)
+- convert .ps to .pdf (ps2pdf)
+
+Because of the graphics pdflatex does not give good results.
+Converting dvi to pdf directly didn't work correctly for me either.
