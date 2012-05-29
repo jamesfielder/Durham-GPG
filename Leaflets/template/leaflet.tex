@@ -17,29 +17,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% Durham University Computing Society's Guide to GPG.
 %%
-%% This is file `leaflet-manual.tex',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% leaflet.dtx  (with options: `manual')
+%% Template leaflet file: `leaflet-manual.tex', (licensed under LPPL), official LaTeX Leaflet Manual.
 %% 
-%% Copyright (C) 2003, 2004
-%% Rolf Niepraschk, Rolf.Niepraschk@ptb.de
-%% Hubert Gaesslein, HubertJG@open.mind.de
 %% 
-%% This work may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%   http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%% 
-%% This work has the LPPL maintenance status "author-maintained".
-%% 
-\def\filename{leaflet-manual.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\filename{leaflet.tex}
 \def\fileversion{v0.1}   % change this when leaflet-manual changed, too.
 \def\filedate{2012/05/29}
 \def\docdate {May 2012} % change this when leaflet-manual changed, too.
@@ -65,7 +50,9 @@ notumble, %% -- turns bottom page over for proofreading
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage{mathptmx}
+\usepackage{paralist}
 \usepackage[scaled=0.9]{helvet}
+\usepackage{hyperref}
 \makeatletter
 \def\ptmTeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.075emX\@}
 \DeclareRobustCommand{\ptmLaTeX}{L\kern-.3em
@@ -91,12 +78,12 @@ notumble, %% -- turns bottom page over for proofreading
 \definecolor{LIGHTGRAY}{gray}{.9}
 
 %%%%\renewcommand{\descfont}{\normalfont}
-\newcommand\Lpack[1]{\textsf{#1}}
-\newcommand\Lclass[1]{\textsf{#1}}
-\newcommand\Lopt[1]{\texttt{#1}}
-\newcommand\Lprog[1]{\textit{#1}}
+%\newcommand\Lpack[1]{\textsf{#1}}
+%\newcommand\Lclass[1]{\textsf{#1}}
+%\newcommand\Lopt[1]{\texttt{#1}}
+%\newcommand\Lprog[1]{\textit{#1}}
 
-\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
+%\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
 
 \title{\textit{GNU Privacy Guard}: \\A CompSoc guide to daily use of email encryption\\\vskip1.5em Mac Edition}
 \author{%
@@ -131,17 +118,25 @@ notumble, %% -- turns bottom page over for proofreading
 
 \section{What is GPG?}
 
-\textbf{GPG}, or The GNU Privacy Guard is, in a nutshell, \textit{a free and easy way to send and receive emails securely}. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to care about their privacy.\\
-\textbf{GPG} allows you to send \textbf{completely secure} emails to anyone else with an email address and a key.
+\textbf{GPG}, or GNU Privacy Guard is, in a nutshell, \textit{a free and easy way to send and receive emails completely securely}. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to think and care about their privacy online.\\
+\textbf{GPG} allows you to send \textbf{completely secure} emails to anyone else with an email address and a key: no special email provider is needed.
 
 \section{How does it work?}
-To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This will mean that to anyone without the right password (or `key') the message will look like undecipherable random noise. As you may not have ever met the person you're emailing, you probably won't have a way of agreeing a password (key) together without the possibility that someone else could have intercepted it. Instead, conceptually, you create an electronic padlock and key. You can't send anyone a copy of the padlock's key over the internet as someone could copy it, but instead you can send out an unlocked padlock to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but can't `unlock' (decrypt) it -- only you, the person with the key can do that.\\
+To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
 
-\begin{itemize}
-  \item Test Item
-  \item two and
-  \item three
-\end{itemize}
+\section{Setup and usage guide}
+\textit{(This is the \textbf{Mac} edition, so if you are using a different operating system please refer to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} 
+\begin{compactenum}[1.]%itemize}
+  \item Download and install the GPGTools software from \textbf{\href{http://www.gpgtools.org/}{http://www.gpgtools.org/}}
+  \item Open `\textbf{GPG Keychain Access}' from the `Applications' folder - this is like Mac OS X's Keychain, but for Public / Private Keys. It will store your Public and Private Key Pair (in \textbf{bold}), and allow you to send emails to the people for whom you have public keys.
+  \item On opening GPG Keychain Access for the first time, you'll be asked to generate a Public/Private Key Pair. Enter your name and email address, and then choose 'Advanced Options', specifying a Key Length of \textbf{4096} (this is a measure of how strong your key is). Leave everything else the same.
+  \item Click 'Generate Key' and then when it starts working, bash away randomly at the keyboard for a minute or so: generating random data on the computer helps ensure that your key is as secure as possible.
+  \item Think of and enter a secure passphrase - this isn't your Private Key, this is another layer of protection to ensure your Private Key remains secret, but it is still very important. Make sure the passphrase is at least 10 characters long. Enter it again for confirmation.
+  \item You'll now see in the Keychain window a key with your name and email address in \textbf{bold}. You're all set to go! 
+  \item Now you just need to look up keys for anyone you might want to talk to. Add `pgp.mit.edu' to the Keyserver field in `Preferences' (Cmd + ,), and then choose `Search for Key' (Cmd + F) to find someone else's public key. Try searching for `gpg@compsoc.dur.ac.uk' - that's us.
+  \item Assuming you have your emails running in Mac Mail, open it up (from scratch) and you should now be able to send a test encrypted email to us. You should now see a locked padlock and a star with a tick in it below the subject line (right hand side) if you've entered the email address of someone you have a key for. Give it a try - send us an email!
+  \item You'll have to enter your passphrase every time you send or receive an encrypted email - when you receive one, this is to unlock your private key to decrypt the message. When you send one, this is to unlock your private key to sign the email, to prove that it was you who sent it.
+\end{compactenum}%itemize}
 
 
 
