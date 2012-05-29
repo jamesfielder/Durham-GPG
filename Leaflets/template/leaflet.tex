@@ -1,19 +1,19 @@
-\documentclass[a4paper]{leaflet}
-%\pdfpagewidth=420mm
-\pdfpageheight=\paperheight
-\usepackage{lipsum}
-%\usepackage{fontspec}
-\begin{document}
-%\title{GPG: A Guide by DUCS \Lclass{leaflet}}
+%\documentclass[a4paper]{leaflet}
+%%\pdfpagewidth=420mm
+%\pdfpageheight=\paperheight
+%\usepackage{lipsum}
+%%\usepackage{fontspec}
+%\begin{document}
+%%\title{GPG: A Guide by DUCS \Lclass{leaflet}}
 
-\title{The document class \Lclass{leaflet}}
-\author{%
-  Rolf Niepraschk\\
-  Walter Schmidt\\
-  Hubert G\"a\ss lein}
-\date{Last updated~\docdate\\printed \today}
-BLAH
-\end{document}
+%\title{The document class \Lclass{leaflet}}
+%\author{%
+ % Rolf Niepraschk\\
+ % Walter Schmidt\\
+ % Hubert G\"a\ss lein}
+%\date{Last updated~\docdate\\printed \today}
+%BLAH
+%\end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -40,9 +40,9 @@ BLAH
 %% This work has the LPPL maintenance status "author-maintained".
 %% 
 \def\filename{leaflet-manual.tex}
-\def\fileversion{v1.0c}   % change this when leaflet-manual changed, too.
-\def\filedate{2004/12/22}
-\def\docdate {2004/08/12} % change this when leaflet-manual changed, too.
+\def\fileversion{v0.1}   % change this when leaflet-manual changed, too.
+\def\filedate{2012/05/29}
+\def\docdate {May 2012} % change this when leaflet-manual changed, too.
 \listfiles
 \errorcontextlines=99
 \documentclass[
@@ -98,52 +98,39 @@ BLAH
 
 \newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
 
-\title{The document class \Lclass{leaflet}}
+\title{GNU Privacy Guard: \\A CompSoc guide to daily use of strong encryption\\\vskip1.5em Mac Edition}
 \author{%
-  Rolf Niepraschk\\
-  Walter Schmidt\\
-  Hubert G\"a\ss lein}
-\date{Last updated~\docdate\\printed \today}
+  Martin Dehnel\\
+  James Fielder\\ 
+  (Durham University)
+  }
+\date{~\docdate}% \vskip11em}
 
-\CutLine*{1}% Dotted line without scissors
-\CutLine{6}%  Dotted line with scissors
+%\CutLine*{1}% Dotted line without scissors
+%\CutLine{6}%  Dotted line with scissors
 
-\AddToBackground{5}{%  Background of a small page
-  \put(0,0){\textcolor{Cerulean}{\rule{\paperwidth}{\paperheight}}}}
+%\AddToBackground{5}{%  Background of a small page
+%  \put(0,0){\textcolor{Cerulean}{\rule{\paperwidth}{\paperheight}}}}
 
-\AddToBackground*{2}{% Background of a large page
-  \put(\LenToUnit{.5\paperwidth},\LenToUnit{.5\paperheight}){%
-    \makebox(0,0)[c]{%
-      \resizebox{.9\paperwidth}{!}{\rotatebox{35.26}{%
-        \textsf{\textbf{\textcolor{LIGHTGRAY}{BACKGROUND}}}}}}}}
+%\AddToBackground*{2}{% Background of a large page
+%  \put(\LenToUnit{.5\paperwidth},\LenToUnit{.5\paperheight}){%
+%    \makebox(0,0)[c]{%
+%      \resizebox{.9\paperwidth}{!}{\rotatebox{35.26}{%
+%        \textsf{\textbf{\textcolor{LIGHTGRAY}{BACKGROUND}}}}}}}}
 
 \begin{document}
 
 \maketitle
+\includegraphics{images/gpg-logo.png}
 \thispagestyle{empty}
 
 %%\LARGE
 
 %%\tableofcontents
 
-\section{Overview}
+\section{What is GPG?}
 
-The document class \Lclass{leaflet} creates a document of (up to) six
-small pages in portrait orientation, arranged physically on two
-``normal-size'' pages. The target page sizes supported by the standard
-\LaTeX{}  \Lclass{article} are available, plus |a3paper|. Printing these
-to both sides of a sheet and folding appropriately will yield a six-page
-leaflet.
-
-%% TEST: These commands are no longer disabled!
-\iffalse
-\reversemarginpar
-\marginpar[XXX]{YYY}
-\fi
-%% TEST: These commands are disabled!
-\onecolumn
-\twocolumn[WWW]
-%% end of TEST
+GPG, or GNU Privacy Guard is a free 
 
 \section{Requirements}
 
