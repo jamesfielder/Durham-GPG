@@ -118,14 +118,16 @@ notumble, %% -- turns bottom page over for proofreading
 
 \section{What is GPG?}
 
-\textbf{GPG}, or GNU Privacy Guard is, in a nutshell, \textit{a free and easy way to send and receive emails completely securely}. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to think and care about their privacy online.\\
+\textbf{GPG}, or GNU Privacy Guard is, in a nutshell, \textit{a free and easy way to send and receive emails completely securely}. The way most emails are currently sent is completely insecure, and is directly analogous to sending all of your mail on a postcard, available for any postman or eavesdropper along the way to read: we don't think this is good enough, and want to encourage more people to think and care about their privacy online.
+
 \textbf{GPG} allows you to send \textbf{completely secure} emails to anyone else with an email address and a key: no special email provider is needed.
 
 \section{How does it work?}
 To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server, such as \href{http://pgp.mit.edu}{http://pgp.mit.edu}. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
 
 \section{Setup and usage guide, Mac edition}
-\textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} 
+\textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} \\
+Please don't be put off by the 10 steps to this guide -- most of them are completely obvious when in GPGTools.
 \begin{compactenum}[1.]%itemize}
   \item Download and install the GPGTools software from \textbf{\href{http://www.gpgtools.org/}{http://www.gpgtools.org/}}
   \item Open `\textbf{GPG Keychain Access}' from the `Applications' folder - this is like Mac OS X's Keychain, but for Public / Private Keys. It will store your Public and Private Key Pair (in \textbf{bold}), and allow you to send emails to the people for whom you have public keys.
@@ -141,9 +143,14 @@ To make sure that only the intended recipient can read the email you've sent the
 
 \section{Key Management}
 
+\subsection{Revocation}
+You may have noticed the option of the `Expiration date' when you created your Key Pair - this is important.
+
+Make sure you have a backup of your Public/Private Key Pair somewhere safe. But you already take full backups regularly anyway, don't you? :-)
+
 Somewhere mention about saving drafts locally, not on the server?
 
-Revocation?
+
 
 
 
