@@ -1,25 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  30 MAY 2012 12:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.2.15)  3 JUN 2012 16:11
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**leaflet.tex
-(./leaflet.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
- icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
-iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
- lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
-ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
-ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
-.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/leaflet/leaflet.cls
+**C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/template/leaflet.tex
+(C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/template/leaflet.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\leaflet\leaflet.cls
 Document Class: leaflet 2004/12/22 v1.0d LaTeX document class (JS,WaS,RN,HjG)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count79
 )
@@ -27,9 +23,9 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \c@@@total@outs=\count80
 \c@@@last@exec=\count81
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count82
@@ -44,10 +40,10 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/everyshi.sty
+(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count90
 \calc@Bcount=\count91
@@ -60,31 +56,31 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count92
 \calc@Cskip=\skip45
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count93
@@ -94,28 +90,28 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 Class leaflet Info: Generating code for pdfTeX on input line 257.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/pifont.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/upzd.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/upsy.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 \c@LL@page=\count94
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/textcomp.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -130,7 +126,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -165,24 +161,38 @@ Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
 Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
 Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
 Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/mathptmx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -218,7 +228,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/paralist/paralist.sty
+(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\paralist\paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \pltopsep=\skip46
 \plpartopsep=\skip47
@@ -226,16 +236,16 @@ Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \plparsep=\skip49
 \pl@lab=\toks15
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/helvet.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2011/08/19 v6.82h Hypertext links for LaTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -269,55 +279,54 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
-Package atveryend Info: \enddocument detected (standard).
 Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 )
 \@linkdim=\dimen107
 \Hy@linkcounter=\count95
 \Hy@pagecounter=\count96
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count97
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4026.
-Package hyperref Info: Link nesting OFF on input line 4031.
-Package hyperref Info: Hyper index ON on input line 4034.
-Package hyperref Info: Plain pages OFF on input line 4041.
-Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Hyper figures OFF on input line 4053.
+Package hyperref Info: Link nesting OFF on input line 4058.
+Package hyperref Info: Hyper index ON on input line 4061.
+Package hyperref Info: Plain pages OFF on input line 4068.
+Package hyperref Info: Backreferencing OFF on input line 4073.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4264.
+Package hyperref Info: Bookmarks ON on input line 4291.
 \c@Hy@tempcnt=\count98
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4617.
+LaTeX Info: Redefining \url on input line 4644.
 \Fld@menulength=\count99
 \Field@Width=\dimen108
 \Fld@charsize=\dimen109
-Package hyperref Info: Hyper figures OFF on input line 5701.
-Package hyperref Info: Link nesting OFF on input line 5706.
-Package hyperref Info: Hyper index ON on input line 5709.
-Package hyperref Info: backreferencing OFF on input line 5716.
-Package hyperref Info: Link coloring OFF on input line 5721.
-Package hyperref Info: Link coloring with OCG OFF on input line 5726.
-Package hyperref Info: PDF/A mode OFF on input line 5731.
-LaTeX Info: Redefining \ref on input line 5771.
-LaTeX Info: Redefining \pageref on input line 5775.
+Package hyperref Info: Hyper figures OFF on input line 5730.
+Package hyperref Info: Link nesting OFF on input line 5735.
+Package hyperref Info: Hyper index ON on input line 5738.
+Package hyperref Info: backreferencing OFF on input line 5745.
+Package hyperref Info: Link coloring OFF on input line 5750.
+Package hyperref Info: Link coloring with OCG OFF on input line 5755.
+Package hyperref Info: PDF/A mode OFF on input line 5760.
+LaTeX Info: Redefining \ref on input line 5800.
+LaTeX Info: Redefining \pageref on input line 5804.
 \Hy@abspage=\count100
 \c@Item=\count101
 \c@Hfootnote=\count102
@@ -325,37 +334,35 @@ LaTeX Info: Redefining \pageref on input line 5775.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2011/08/19 v6.82h Hyperref driver for pdfTeX
 \Fld@listcount=\count103
 \c@bookmark@seq@number=\count104
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip50
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/shortvrb.sty
-Package: shortvrb 2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\shortvrb.sty"
+Package: shortvrb 2010/02/04 v2.1e Standard LaTeX documentation package (FMi)
 )
 Package shortvrb Info: Made | a short reference for \verb on input line 74.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/dvipsnam.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(./leaflet.aux)
-\openout1 = `leaflet.aux'.
-
+(C:\Users\James\Documents\GitHub\Durham-GPG\Leaflets\template\leaflet.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
@@ -371,7 +378,8 @@ LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
 
- (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 108.
@@ -379,11 +387,11 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 108.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ABD: EveryShipout initializing macros
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen110
@@ -396,29 +404,14 @@ ABD: EveryShipout initializing macros
 \MPnumerator=\count109
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks17
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \big@size=\dimen112
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring OFF on input line 108.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count111
@@ -427,38 +420,37 @@ LaTeX Info: Redefining \ref on input line 108.
 LaTeX Info: Redefining \pageref on input line 108.
 LaTeX Info: Redefining \nameref on input line 108.
 
-(./leaflet.out) (./leaflet.out)
+(C:\Users\James\Documents\GitHub\Durham-GPG\Leaflets\template\leaflet.out)
+(C:\Users\James\Documents\GitHub\Durham-GPG\Leaflets\template\leaflet.out)
 \@outlinefile=\write3
-\openout3 = `leaflet.out'.
-
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
 0.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
 0.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
 0.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
 0.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 110.
 
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -468,7 +460,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 
-<images/logo.png, id=20, 513.92pt x 513.92pt>
+<images/logo.png, id=23, 513.92pt x 513.92pt>
 File: images/logo.png Graphic file (type png)
  <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 110.
@@ -545,15 +537,14 @@ e \@doendpe \fi \if@ignore \@ignorefalse \ignorespaces \fi
 {\csname}
 
 \enddocument ->\let \AtEndDocument \@firstofone \@enddocumenthook \@checkend {d
-ocument}\Call@BeforeClearDocument \clearpage \Call@AfterLastShipout \begingroup
- \if@filesw \immediate \closeout \@mainaux \let \@setckpt \@gobbletwo \let \@ne
-wl@bel \@testdef \@tempswafalse \makeatletter \input \jobname .aux \fi \Call@At
-VeryEndDocument \@dofilelist \Call@AtEndAfterFileList \ifdim \font@submax >\fon
-tsubfuzz \relax \@font@warning {Size substitutions with differences\MessageBrea
-k up to \font@submax \space have occurred.\@gobbletwo }\fi \@defaultsubs \@refu
-ndefined \if@filesw \ifx \@multiplelabels \relax \if@tempswa \@latex@warning@no
-@line {Label(s) may have changed. Rerun to get cross-references right}\fi \else
- \@multiplelabels \fi \fi \endgroup \deadcycles \z@ \Call@AtVeryVeryEnd \@@end 
+ocument}\clearpage \begingroup \if@filesw \immediate \closeout \@mainaux \let \
+@setckpt \@gobbletwo \let \@newl@bel \@testdef \@tempswafalse \makeatletter \@@
+input \jobname .aux \fi \@dofilelist \ifdim \font@submax >\fontsubfuzz \relax \
+@font@warning {Size substitutions with differences\MessageBreak up to \font@sub
+max \space have occurred.\@gobbletwo }\fi \@defaultsubs \@refundefined \if@file
+sw \ifx \@multiplelabels \relax \if@tempswa \@latex@warning@no@line {Label(s) m
+ay have changed. Rerun to get cross-references right}\fi \else \@multiplelabels
+ \fi \fi \endgroup \deadcycles \z@ \@@end 
 {\let}
 {changing \AtEndDocument=macro:->\g@addto@macro \@enddocumenthook }
 {into \AtEndDocument=\long macro:#1->#1}
@@ -650,6 +641,12 @@ t \clearpage \Call@AfterLastShipout }\fi }\aftergroup \AtVeryEnd@RedefCheckEnd
 {into \clearpage=macro:->\let \clearpage \AtVeryEnd@OrgClearpage \ETC.}
 {\fi: \ifx (level 1) entered on line 169}
 
+\clearpage ->\let \clearpage \AtVeryEnd@OrgClearpage \Call@BeforeClearDocument 
+\clearpage \Call@AfterLastShipout 
+{\let}
+{changing \clearpage=macro:->\let \clearpage \AtVeryEnd@OrgClearpage \ETC.}
+{into \clearpage=macro:->\ifvmode \ifnum \@dbltopnum =\m@ne \ETC.}
+
 \Call@BeforeClearDocument ->\let \BeforeClearDocument \@firstofone \ifx \AtVery
 End@BeforeClearDocumentHook \@empty \PackageInfo {atveryend}{Empty hook `Before
 ClearDocument'}\else \PackageInfo {atveryend}{Executing hook `BeforeClearDocume
@@ -741,13 +738,6 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
 {globally changing \Call@BeforeClearDocument=macro:->\let \BeforeClearDocument 
 \@firstofone \ETC.}
 {into \Call@BeforeClearDocument=\relax}
-
-\clearpage ->\let \clearpage \AtVeryEnd@OrgClearpage \Call@BeforeClearDocument 
-\clearpage \Call@AfterLastShipout 
-{\let}
-{changing \clearpage=macro:->\let \clearpage \AtVeryEnd@OrgClearpage \ETC.}
-{into \clearpage=macro:->\ifvmode \ifnum \@dbltopnum =\m@ne \ETC.}
-{\relax}
 
 \clearpage ->\ifvmode \ifnum \@dbltopnum =\m@ne \ifdim \pagetotal <\topskip \hb
 ox {}\fi \fi \fi \newpage \write \m@ne {}\vbox {}\penalty -\@Mi 
@@ -886,11 +876,11 @@ unter {page}\let \firstmark \botmark
 {changing \protect=\relax}
 {into \protect=\noexpand}
 
-\@resetactivechars ->\def ^^M{\@activechar@info {EOL}\space }\def  {\@activecha
-r@info {space}\space }\let '\active@math@prime 
+\@resetactivechars ->\def {\@activechar@info {EOL}\space }\def  {\@activechar@
+info {space}\space }\let '\active@math@prime 
 {\def}
-{changing ^^M=\par}
-{into ^^M=macro:->\@activechar@info {EOL}\space }
+{changing =\par}
+{into =macro:->\@activechar@info {EOL}\space }
 {\def}
 {changing  =macro:-> }
 {into  =macro:->\@activechar@info {space}\space }
@@ -5385,7 +5375,7 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 {into \@the@H@page=macro:->4}
 
 \PE@NormalizeLineEnd #1->\def \PE@result {}\expandafter \PE@@NormalizeLineEnd #
-1^^M\relax \let #1\PE@result 
+1\relax \let #1\PE@result 
 #1<-\@the@H@page 
 {\def}
 {changing \PE@result=undefined}
@@ -5394,8 +5384,8 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 
 \@the@H@page ->4
 
-\PE@@NormalizeLineEnd #1^^M#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\l
-et \PE@next \relax \else \edef \PE@result {\PE@result #1
+\PE@@NormalizeLineEnd #1#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\let
+ \PE@next \relax \else \edef \PE@result {\PE@result #1
 }\ifx 
 #2\let \PE@next \PE@@NormalizeLineEnd \else \def \PE@next {\PE@@NormalizeLineEn
 d #2}\fi \fi \PE@next 
@@ -5435,13 +5425,13 @@ d #2}\fi \fi \PE@next
  \relax \else \if n#2\uccode \ltx@zero =10 \else \if r#2\uccode \ltx@zero =13 \
 else \if t#2\uccode \ltx@zero =9 \else \if b#2\uccode \ltx@zero =8 \else \if f#
 2\uccode \ltx@zero =12 \else \uccode \ltx@zero =\ltx@zero \fi \fi \fi \fi \fi \
-ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp {^^@}}\edef \PE@r
-esult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE
-@result {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 
-\edef \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Te
-stOctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \
-edef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi
- \PE@next 
+ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp { }}\edef \PE@res
+ult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE@r
+esult {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 \e
+def \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Test
+OctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \ed
+ef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi \
+PE@next 
 #1<-4
 #2<-\relax 
 {\ifx: (level 9) entered on line 169}
@@ -6828,7 +6818,7 @@ stpelt \csname cl@LL@page\endcsname \endgroup
 {restoring \`=macro:->\PD1-cmd \`\PD1\` }
 {restoring \'=macro:->\PD1-cmd \'\PD1\' }
 {restoring  =macro:-> }
-{restoring ^^M=\par}
+{restoring =\par}
 {restoring \protect=\relax}
 {leaving semi simple group (level 2) entered at line 169}
 
@@ -7269,7 +7259,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
 {globally changing \Call@AfterLastShipout=macro:->\let \AfterLastShipout \@firs
 tofone \ETC.}
 {into \Call@AfterLastShipout=\relax}
-{\relax}
 {\begingroup}
 {entering semi simple group (level 1) at line 169}
 {\iftrue: (level 1) entered on line 169}
@@ -7324,46 +7313,9 @@ et \closeout \pending@closeout \let \special \@@@special
 {changing \catcode64=12}
 {into \catcode64=11}
 {\relax}
-
-\input ->\@ifnextchar \bgroup \@iinput \@@input 
-
-\@ifnextchar #1#2#3->\let \reserved@d =#1\def \reserved@a {#2}\def \reserved@b 
-{#3}\futurelet \@let@token \@ifnch 
-#1<-\bgroup 
-#2<-\@iinput 
-#3<-\@@input 
-{\let}
-{changing \reserved@d=the character [}
-{into \reserved@d=begin-group character {}
-{\def}
-{changing \reserved@a=macro:->document}
-{into \reserved@a=macro:->\@iinput }
-{\def}
-{changing \reserved@b=macro:->\@xdblarg {\@sect {subsection}\ETC.}
-{into \reserved@b=macro:->\@@input }
-{\futurelet}
-{changing \@let@token=begin-group character {}
-{into \@let@token=\jobname}
-
-\@ifnch ->\ifx \@let@token \@sptoken \let \reserved@c \@xifnch \else \ifx \@let
-@token \reserved@d \let \reserved@c \reserved@a \else \let \reserved@c \reserve
-d@b \fi \fi \reserved@c 
-{\ifx: (level 2) entered on line 169}
-{false}
-{\else: \ifx (level 2) entered on line 169}
-{\ifx: (level 3) entered on line 169}
-{false}
-{\else: \ifx (level 3) entered on line 169}
-{\let}
-{changing \reserved@c=macro:->\@xdblarg {\@sect {subsection}\ETC.}
-{into \reserved@c=macro:->\@@input }
-{\fi: \ifx (level 3) entered on line 169}
-{\fi: \ifx (level 2) entered on line 169}
-
-\reserved@c ->\@@input 
 {\input}
 {\jobname}
-(./leaflet.aux
+(C:\Users\James\Documents\GitHub\Durham-GPG\Leaflets\template\leaflet.aux
 {\relax}
 
 \providecommand ->\@star@or@long \provide@command 
@@ -7381,16 +7333,16 @@ d@b \fi \fi \reserved@c
 #2<-\@firstoftwo {\let \l@ngrel@x \relax \provide@command }
 #3<-\let \l@ngrel@x \long \provide@command 
 {\let}
-{changing \reserved@d=begin-group character {}
+{changing \reserved@d=the character [}
 {into \reserved@d=the character *}
 {\def}
-{changing \reserved@a=macro:->\@iinput }
+{changing \reserved@a=macro:->document}
 {into \reserved@a=macro:->\@firstoftwo {\let \l@ngrel@x \ETC.}
 {\def}
-{changing \reserved@b=macro:->\@@input }
+{changing \reserved@b=macro:->\@xdblarg {\@sect {subsection}\ETC.}
 {into \reserved@b=macro:->\let \l@ngrel@x \long \provide@command }
 {\futurelet}
-{changing \@let@token=\jobname}
+{changing \@let@token=begin-group character {}
 {into \@let@token=\long macro:#1->#1}
 
 \@ifnch ->\ifx \@let@token \@sptoken \let \reserved@c \@xifnch \else \ifx \@let
@@ -7403,7 +7355,7 @@ d@b \fi \fi \reserved@c
 {false}
 {\else: \ifx (level 3) entered on line 2}
 {\let}
-{changing \reserved@c=macro:->\@@input }
+{changing \reserved@c=macro:->\@xdblarg {\@sect {subsection}\ETC.}
 {into \reserved@c=macro:->\let \l@ngrel@x \long \provide@command }
 {\fi: \ifx (level 3) entered on line 2}
 {\fi: \ifx (level 2) entered on line 2}
@@ -8019,6 +7971,16 @@ ate \write \csname tf@toc\endcsname {\the \@temptokena }
 )
 {\fi: \iftrue (level 1) entered on line 169}
 
+\@dofilelist ->\Call@AtVeryEndDocument \typeout {
+ *File List*}\@for \@currname :=\@filelist \do {\filename@parse \@currname \ede
+f \reserved@a {\filename@base .\ifx \filename@ext \relax tex\else \filename@ext
+ \fi }\expandafter \let \expandafter \reserved@b \csname ver@\reserved@a \endcs
+name \expandafter \expandafter \expandafter \@listfiles \expandafter \filename@
+area \filename@base \\\\\\\\\\\\\\\\\\\@@ \typeout {\filename@area \reserved@a 
+\ifx \reserved@b \relax \else \@spaces \reserved@b \fi }}\typeout { ***********
+
+}\Call@AtEndAfterFileList 
+
 \Call@AtVeryEndDocument ->\let \AtVeryEndDocument \@firstofone \ifx \AtVeryEnd@
 AtVeryEndDocumentHook \@empty \PackageInfo {atveryend}{Empty hook `AtVeryEndDoc
 ument'}\else \PackageInfo {atveryend}{Executing hook `AtVeryEndDocument'}\AtVer
@@ -8140,17 +8102,6 @@ s[\HyPL@Labels ]>>}\fi \fi
 rstofone \ETC.}
 {into \Call@AtVeryEndDocument=\relax}
 
-\@dofilelist ->\Call@AtVeryEndDocument \typeout {
- *File List*}\@for \@currname :=\@filelist \do {\filename@parse \@currname \ede
-f \reserved@a {\filename@base .\ifx \filename@ext \relax tex\else \filename@ext
- \fi }\expandafter \let \expandafter \reserved@b \csname ver@\reserved@a \endcs
-name \expandafter \expandafter \expandafter \@listfiles \expandafter \filename@
-area \filename@base \\\\\\\\\\\\\\\\\\\@@ \typeout {\filename@area \reserved@a 
-\ifx \reserved@b \relax \else \@spaces \reserved@b \fi }}\typeout { ***********
-
-}\Call@AtEndAfterFileList 
-{\relax}
-
 \typeout #1->\begingroup \set@display@protect \immediate \write \@unused {#1}\e
 ndgroup 
 #1<-
@@ -8231,10 +8182,9 @@ texcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintc
 alc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.s
 ty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.st
 y,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,c
-olor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.
-sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaf
-let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
-ng
+olor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,ge
+ttitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,om
+xztmcm.fd,ot1ptm.fd,images/logo.png
 {\def}
 {changing \@fortmp=macro:-> ,.}
 {into \@fortmp=macro:->leaflet.cls,etex.sty,article.c\ETC.}
@@ -8252,10 +8202,9 @@ texcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintc
 alc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.s
 ty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.st
 y,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,c
-olor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.
-sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaf
-let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
-ng
+olor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,ge
+ttitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,om
+xztmcm.fd,ot1ptm.fd,images/logo.png
 
 \@forloop #1,#2,#3\@@ #4#5->\def #4{#1}\ifx #4\@nnil \else #5\def #4{#2}\ifx #4
 \@nnil \else #5\@iforloop #3\@@ #4{#5}\fi \fi 
@@ -8270,9 +8219,9 @@ finekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecount
 er.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,
 refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.
 sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.de
-f,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cf
-g,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.f
-d,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+f,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,l
+eaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/log
+o.png,\@nil ,\@nil 
 #4<-\@currname 
 #5<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -9027,9 +8976,9 @@ ty,ifvtex.sty,intcalc.sty,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty
 xmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty
 ,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.
 def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,
-t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.st
-y,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.f
-d,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,o
+t1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil 
+,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -9413,9 +9362,8 @@ ty,intcalc.sty,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds
 hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.st
 y,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfi
 lecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,su
-pp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitles
-tring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.
-fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+pp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,
+omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -9803,10 +9751,9 @@ y,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescap
 e.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,x
 color-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty
 ,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,s
-hortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,e
-pstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,lea
-flet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,
-images/logo.png,\@nil ,\@nil 
+hortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,n
+ameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,o
+msztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -10184,10 +10131,9 @@ ty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,big
 intcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-pat
 ch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoption
 s.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.s
-ty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-b
-ase.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,
-leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/lo
-go.png,\@nil ,\@nil 
+ty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.st
+y,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.f
+d,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -10584,10 +10530,9 @@ ty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,b
 itset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atvery
 end.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.
 def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,
-color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfex
-t.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,o
-t1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil 
-,\@nil 
+color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestr
+ing.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd
+,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -10965,9 +10910,9 @@ s.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,u
 niquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atb
 egshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperre
 f.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,d
-vipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epsto
-pdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,
-omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+vipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,lea
+flet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,
+images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -11354,9 +11299,9 @@ ekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.
 sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,ref
 count.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty
 ,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,t
-s1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,n
-ameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,o
-msztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+s1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaf
+let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
+ng,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -11734,9 +11679,9 @@ ty,ifvtex.sty,intcalc.sty,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty
 xmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty
 ,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.
 def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,
-t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.st
-y,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.f
-d,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,o
+t1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil 
+,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -12133,9 +12078,8 @@ ty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,ho
 patch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,
 ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfile
 check.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp
--pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestr
-ing.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd
-,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,om
+lztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -12210,7 +12154,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 \reserved@a ->graphics.cfg
 {\let}
 {changing \reserved@b=macro:->1999/03/16 v1.09 sin cos tan (\ETC.}
-{into \reserved@b=macro:->2010/04/23 v1.9 graphics confi\ETC.}
+{into \reserved@b=macro:->2007/01/18 v1.5 graphics confi\ETC.}
 {\expandafter}
 {\expandafter}
 {\expandafter}
@@ -12488,9 +12432,9 @@ rved@b \fi
 
 \space -> 
 
-\reserved@b ->2010/04/23 v1.9 graphics configuration of TeX Live
+\reserved@b ->2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 {\fi: \ifx (level 5) entered on line 169}
-graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -12512,10 +12456,9 @@ y,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescap
 e.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,x
 color-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty
 ,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,s
-hortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,e
-pstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,lea
-flet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,
-images/logo.png,\@nil ,\@nil 
+hortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,n
+ameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,o
+msztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -12588,7 +12531,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->pdftex.def
 {\let}
-{changing \reserved@b=macro:->2010/04/23 v1.9 graphics confi\ETC.}
+{changing \reserved@b=macro:->2007/01/18 v1.5 graphics confi\ETC.}
 {into \reserved@b=macro:->2011/05/27 v0.06d Graphics/col\ETC.}
 {\expandafter}
 {\expandafter}
@@ -12901,10 +12844,9 @@ excmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintca
 lc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.st
 y,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty
 ,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,co
-lor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.s
-ty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leafl
-et.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.pn
-g,\@nil ,\@nil 
+lor.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,get
+titlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omx
+ztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -13281,10 +13223,9 @@ vsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitse
 t.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.
 sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,
 hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,colo
-r.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.st
-y,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1zt
-mcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@n
-il 
+r.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.
+sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1
+ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -13665,9 +13606,9 @@ y,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniqu
 ecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegsh
 i.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cf
 g,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvips
-nam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-
-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlz
-tmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+nam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet
+.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,imag
+es/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -14054,9 +13995,9 @@ nekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter
 .sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,re
 fcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.st
 y,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,
-ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,
-nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,
-omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,lea
+flet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.
+png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -14453,9 +14394,9 @@ ty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,let
 ltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.s
 ty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdfte
 x.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.f
-d,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.
-sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm
-.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+d,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out
+,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@ni
+l ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -14852,9 +14793,8 @@ s.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty
 ,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.s
 ty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunf
 ilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,s
-upp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitle
-string.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm
-.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+upp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd
+,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -15224,9 +15164,8 @@ scape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.s
 ty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex
 .sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.s
 ty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mk
-ii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty
-,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm
-.fd,images/logo.png,\@nil ,\@nil 
+ii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.
+fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -15617,10 +15556,9 @@ ty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,big
 intcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-pat
 ch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoption
 s.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.s
-ty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-b
-ase.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,
-leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/lo
-go.png,\@nil ,\@nil 
+ty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.st
+y,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.f
+d,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -15996,10 +15934,9 @@ b-generic.sty,hobsub.sty,ifluatex.sty,ifvtex.sty,intcalc.sty,ifpdf.sty,etexcmds
 ,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atve
 ryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1en
 c.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.st
-y,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grf
-ext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out
-,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@ni
-l ,\@nil 
+y,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitles
+tring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.
+fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -16384,9 +16321,9 @@ s.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,u
 niquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atb
 egshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperre
 f.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,d
-vipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epsto
-pdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,
-omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+vipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,lea
+flet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,
+images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -16762,9 +16699,9 @@ ekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.
 sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,ref
 count.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty
 ,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,t
-s1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,n
-ameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,o
-msztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+s1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaf
+let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
+ng,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -17139,9 +17076,9 @@ dftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxm
 acro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,h
 ycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.de
 f,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1
-ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,
-gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,
-omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1
+ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\
+@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -17526,9 +17463,8 @@ ntcalc.sty,ifpdf.sty,etexcmds.sty,kvsetkeys.sty,kvdefinekeys.sty,pdftexcmds.sty
 tch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,if
 xetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilech
 eck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-p
-df.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestrin
-g.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,o
-t1ptm.fd,images/logo.png,\@nil ,\@nil 
+df.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlz
+tmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -17603,7 +17539,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 \reserved@a ->hyperref.sty
 {\let}
 {changing \reserved@b=macro:->2005/04/12 PSNFSS-v9.2a (WaS) }
-{into \reserved@b=macro:->2011/04/17 v6.82g Hypertext li\ETC.}
+{into \reserved@b=macro:->2011/08/19 v6.82h Hypertext li\ETC.}
 {\expandafter}
 {\expandafter}
 {\expandafter}
@@ -17881,9 +17817,9 @@ rved@b \fi
 
 \space -> 
 
-\reserved@b ->2011/04/17 v6.82g Hypertext links for LaTeX
+\reserved@b ->2011/08/19 v6.82h Hypertext links for LaTeX
 {\fi: \ifx (level 5) entered on line 169}
-hyperref.sty    2011/04/17 v6.82g Hypertext links for LaTeX
+hyperref.sty    2011/08/19 v6.82h Hypertext links for LaTeX
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -17903,10 +17839,9 @@ hyperref.sty    2011/04/17 v6.82g Hypertext links for LaTeX
 tcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch
 .sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.
 sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty
-,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-bas
-e.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,le
-aflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo
-.png,\@nil ,\@nil 
+,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,
+gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,
+omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -17979,7 +17914,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->hobsub-hyperref.sty
 {\let}
-{changing \reserved@b=macro:->2011/04/17 v6.82g Hypertext li\ETC.}
+{changing \reserved@b=macro:->2011/08/19 v6.82h Hypertext li\ETC.}
 {into \reserved@b=macro:->2011/04/23 v1.4 Bundle oberdie\ETC.}
 {\expandafter}
 {\expandafter}
@@ -18280,9 +18215,9 @@ keys.sty,kvdefinekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.st
 y,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,
 atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hype
 rref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cf
-g,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,ep
-stopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.
-fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+g,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,
+leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.
+fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -18656,9 +18591,9 @@ definekeys.sty,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecou
 nter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.st
 y,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,ur
 l.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.
-def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.
-cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
-.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out
+,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/l
+ogo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -19042,9 +18977,9 @@ y,pdftexcmds.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letl
 txmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.st
 y,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex
 .def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd
-,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.s
-ty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.
-fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,
+ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil
+ ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -19419,9 +19354,8 @@ s.sty,pdfescape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty
 ,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.s
 ty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunf
 ilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,s
-upp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitle
-string.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm
-.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+upp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd
+,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -19805,9 +19739,8 @@ ape.sty,bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty
 ,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.s
 ty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty
 ,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii
-,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,l
-eaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.f
-d,images/logo.png,\@nil ,\@nil 
+,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd
+,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -20186,10 +20119,9 @@ rved@b \fi
 gintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-pa
 tch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptio
 ns.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.
-sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-
-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out
-,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/l
-ogo.png,\@nil ,\@nil 
+sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.s
+ty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.
+fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -20578,10 +20510,9 @@ rved@b \fi
 bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atver
 yend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc
 .def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty
-,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfe
-xt.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,
-ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil
- ,\@nil 
+,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlest
+ring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.f
+d,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -20955,9 +20886,9 @@ etexcmds.sty    2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 quecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbeg
 shi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.
 cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvi
-psnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopd
-f-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,om
-lztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+psnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leafl
+et.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,im
+ages/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -21330,9 +21261,9 @@ kvsetkeys.sty    2011/04/07 v1.13 Key value parser (HO)
 tltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.
 sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdft
 ex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.
-fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref
-.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmc
-m.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.ou
+t,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@n
+il ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -21705,9 +21636,8 @@ kvdefinekeys.sty    2011/04/07 v1.3 Defining keys (HO)
 opatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty
 ,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfil
 echeck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,sup
-p-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlest
-ring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.f
-d,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+p-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,o
+mlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -22079,10 +22009,9 @@ pdftexcmds.sty    2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 #2<-bigintcalc.sty,bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xco
 lor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,k
 voptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,sho
-rtvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,eps
-topdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leafl
-et.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,im
-ages/logo.png,\@nil ,\@nil 
+rtvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nam
+eref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,oms
+ztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -22454,10 +22383,9 @@ pdfescape.sty    2011/04/04 v1.12 Provides string conversions (HO)
 #2<-bitset.sty,uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,a
 tveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd
 1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color
-.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,
-grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.
-out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\
-@nil ,\@nil 
+.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettit
+lestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztm
+cm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -22829,10 +22757,9 @@ bigintcalc.sty    2011/01/30 v1.2 Expandable big integer calculations (HO)
 #2<-uniquecounter.sty,letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.st
 y,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hy
 perref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.
-cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,
-epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmc
-m.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil
- 
+cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.st
+y,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1pt
+m.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -23214,9 +23141,9 @@ rved@b \fi
 #2<-letltxmacro.sty,hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,ref
 count.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty
 ,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,t
-s1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,n
-ameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,o
-msztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+s1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaf
+let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
+ng,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -23589,9 +23516,8 @@ uniquecounter.sty    2011/01/30 v1.2 Provides unlimited unique counter (HO)
 #2<-hopatch.sty,xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolo
 r.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rer
 unfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.f
-d,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,getti
-tlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxzt
-mcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+d,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm
+.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -23963,9 +23889,8 @@ letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 #2<-xcolor-patch.sty,atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxete
 x.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.
 sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.m
-kii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.st
-y,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1pt
-m.fd,images/logo.png,\@nil ,\@nil 
+kii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
+.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -24341,10 +24266,9 @@ rved@b \fi
 #1<-xcolor-patch.sty
 #2<-atveryend.sty,atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.s
 ty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,
-color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base
-.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,lea
-flet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.
-png,\@nil ,\@nil 
+color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,g
+ettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,o
+mxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -24716,10 +24640,9 @@ xcolor-patch.sty    2011/01/30 xcolor patch
 #1<-atveryend.sty
 #2<-atbegshi.sty,refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,
 hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,colo
-r.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.st
-y,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1zt
-mcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@n
-il 
+r.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.
+sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1
+ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -25090,9 +25013,9 @@ atveryend.sty    2011/04/23 v1.7 Hooks at very end of document (HO)
 #1<-atbegshi.sty
 #2<-refcount.sty,hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,
 url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsna
-m.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sy
-s.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztm
-cm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+m.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.o
+ut,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images
+/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -25463,9 +25386,9 @@ atbegshi.sty    2011/01/30 v1.15 At begin shipout hook (HO)
 #1<-refcount.sty
 #2<-hycolor.sty,ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdft
 ex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.
-fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref
-.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmc
-m.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.ou
+t,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@n
+il ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -25836,9 +25759,8 @@ refcount.sty    2010/12/01 v3.2 Data extraction from references (HO)
 #1<-hycolor.sty
 #2<-ifxetex.sty,kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerun
 filecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,
-supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitl
-estring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmc
-m.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.f
+d,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -26214,9 +26136,8 @@ rved@b \fi
 #1<-ifxetex.sty
 #2<-kvoptions.sty,pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.st
 y,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mki
-i,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,
-leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.
-fd,images/logo.png,\@nil ,\@nil 
+i,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.f
+d,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -26592,10 +26513,9 @@ rved@b \fi
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-kvoptions.sty
 #2<-pd1enc.def,hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty
-,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-bas
-e.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,le
-aflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo
-.png,\@nil ,\@nil 
+,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,
+gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,
+omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -26966,10 +26886,9 @@ kvoptions.sty    2010/12/23 v3.10 Keyval support for LaTeX options (HO)
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-pd1enc.def
 #2<-hyperref.cfg,url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,
-color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfex
-t.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,o
-t1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil 
-,\@nil 
+color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestr
+ing.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd
+,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -27043,7 +26962,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 \reserved@a ->pd1enc.def
 {\let}
 {changing \reserved@b=macro:->2010/12/23 v3.10 Keyval suppor\ETC.}
-{into \reserved@b=macro:->2011/04/17 v6.82g Hyperref: PD\ETC.}
+{into \reserved@b=macro:->2011/08/19 v6.82h Hyperref: PD\ETC.}
 {\expandafter}
 {\expandafter}
 {\expandafter}
@@ -27331,9 +27250,9 @@ rved@b \fi
 
 \space -> 
 
-\reserved@b ->2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+\reserved@b ->2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
 {\fi: \ifx (level 5) entered on line 169}
-  pd1enc.def    2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+  pd1enc.def    2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -27349,9 +27268,9 @@ rved@b \fi
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-hyperref.cfg
 #2<-url.sty,hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvi
-psnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopd
-f-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,om
-lztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+psnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leafl
+et.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,im
+ages/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -27425,7 +27344,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->hyperref.cfg
 {\let}
-{changing \reserved@b=macro:->2011/04/17 v6.82g Hyperref: PD\ETC.}
+{changing \reserved@b=macro:->2011/08/19 v6.82h Hyperref: PD\ETC.}
 {into \reserved@b=macro:->2002/06/06 v1.2 hyperref confi\ETC.}
 {\expandafter}
 {\expandafter}
@@ -27722,9 +27641,9 @@ hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-url.sty
 #2<-hpdftex.def,rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.de
-f,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cf
-g,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.f
-d,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+f,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,l
+eaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/log
+o.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -28119,9 +28038,9 @@ rved@b \fi
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-hpdftex.def
 #2<-rerunfilecheck.sty,shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,
-t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.st
-y,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.f
-d,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,o
+t1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil 
+,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -28196,7 +28115,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 \reserved@a ->hpdftex.def
 {\let}
 {changing \reserved@b=macro:->2006/04/12  ver 3.3  Verb mode\ETC.}
-{into \reserved@b=macro:->2011/04/17 v6.82g Hyperref dri\ETC.}
+{into \reserved@b=macro:->2011/08/19 v6.82h Hyperref dri\ETC.}
 {\expandafter}
 {\expandafter}
 {\expandafter}
@@ -28479,9 +28398,9 @@ rved@b \fi
 
 \space -> 
 
-\reserved@b ->2011/04/17 v6.82g Hyperref driver for pdfTeX
+\reserved@b ->2011/08/19 v6.82h Hyperref driver for pdfTeX
 {\fi: \ifx (level 5) entered on line 169}
- hpdftex.def    2011/04/17 v6.82g Hyperref driver for pdfTeX
+ hpdftex.def    2011/08/19 v6.82h Hyperref driver for pdfTeX
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -28497,9 +28416,8 @@ rved@b \fi
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-rerunfilecheck.sty
 #2<-shortvrb.sty,color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.m
-kii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.st
-y,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1pt
-m.fd,images/logo.png,\@nil ,\@nil 
+kii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
+.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -28573,7 +28491,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->rerunfilecheck.sty
 {\let}
-{changing \reserved@b=macro:->2011/04/17 v6.82g Hyperref dri\ETC.}
+{changing \reserved@b=macro:->2011/08/19 v6.82h Hyperref dri\ETC.}
 {into \reserved@b=macro:->2011/04/15 v1.7 Rerun checks f\ETC.}
 {\expandafter}
 {\expandafter}
@@ -28869,10 +28787,9 @@ rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-shortvrb.sty
-#2<-color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-
-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out
-,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/l
-ogo.png,\@nil ,\@nil 
+#2<-color.sty,color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.s
+ty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.
+fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -28946,7 +28863,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 \reserved@a ->shortvrb.sty
 {\let}
 {changing \reserved@b=macro:->2011/04/15 v1.7 Rerun checks f\ETC.}
-{into \reserved@b=macro:->2006/02/02 v2.1d Standard LaTe\ETC.}
+{into \reserved@b=macro:->2010/02/04 v2.1e Standard LaTe\ETC.}
 {\expandafter}
 {\expandafter}
 {\expandafter}
@@ -29224,9 +29141,9 @@ rved@b \fi
 
 \space -> 
 
-\reserved@b ->2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+\reserved@b ->2010/02/04 v2.1e Standard LaTeX documentation package (FMi)
 {\fi: \ifx (level 5) entered on line 169}
-shortvrb.sty    2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+shortvrb.sty    2010/02/04 v2.1e Standard LaTeX documentation package (FMi)
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -29241,10 +29158,9 @@ shortvrb.sty    2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-color.sty
-#2<-color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,g
-rfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.o
-ut,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@
-nil ,\@nil 
+#2<-color.cfg,dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitl
+estring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmc
+m.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -29317,7 +29233,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->color.sty
 {\let}
-{changing \reserved@b=macro:->2006/02/02 v2.1d Standard LaTe\ETC.}
+{changing \reserved@b=macro:->2010/02/04 v2.1e Standard LaTe\ETC.}
 {into \reserved@b=macro:->2005/11/14 v1.0j Standard LaTe\ETC.}
 {\expandafter}
 {\expandafter}
@@ -29628,10 +29544,9 @@ rved@b \fi
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-color.cfg
-#2<-dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,
-epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmc
-m.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil
- 
+#2<-dvipsnam.def,ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.st
+y,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1pt
+m.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -30016,9 +29931,9 @@ rved@b \fi
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-dvipsnam.def
-#2<-ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.
-cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
-.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+#2<-ts1cmr.fd,t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out
+,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/l
+ogo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -30388,9 +30303,9 @@ dvipsnam.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-ts1cmr.fd
-#2<-t1ptm.fd,supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,namere
-f.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztm
-cm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+#2<-t1ptm.fd,supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.o
+ut,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@
+nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -30769,9 +30684,9 @@ rved@b \fi
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-t1ptm.fd
-#2<-supp-pdf.mkii,epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,get
-titlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omx
-ztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
+#2<-supp-pdf.mkii,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztm
+cm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@ni
+l 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -31156,9 +31071,8 @@ rved@b \fi
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-supp-pdf.mkii
-#2<-epstopdf-base.sty,grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.st
-y,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1pt
-m.fd,images/logo.png,\@nil ,\@nil 
+#2<-nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
+.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
 #3<-\@currname 
 #4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
 e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
@@ -31517,1129 +31431,6 @@ supp-pdf.mkii
 
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
-#1<-epstopdf-base.sty
-#2<-grfext.sty,epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaf
-let.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.p
-ng,\@nil ,\@nil 
-#3<-\@currname 
-#4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
-e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
-ed@b \csname ver@\reserved@a \endcsname \expandafter \expandafter \expandafter 
-\@listfiles \expandafter \filename@area \filename@base \\\\\\\\\\\\\\\\\\\@@ \t
-ypeout {\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi }
-{\def}
-{changing \@currname=macro:->supp-pdf.mkii}
-{into \@currname=macro:->epstopdf-base.sty}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-
-\filename@parse #1->\let \filename@area \@empty \expandafter \filename@path #1/
-\\
-#1<-\@currname 
-{\let}
-{reassigning \filename@area=macro:->}
-{\expandafter}
-
-\@currname ->epstopdf-base.sty
-
-\filename@path #1/#2\\->\ifx \\#2\\\def \reserved@a {\filename@simple #1.\\}\el
-se \edef \filename@area {\filename@area #1/}\def \reserved@a {\filename@path #2
-\\}\fi \reserved@a 
-#1<-epstopdf-base.sty
-#2<-
-{\ifx: (level 5) entered on line 169}
-{true}
-{\def}
-{changing \reserved@a=macro:->supp-pdf.mkii}
-{into \reserved@a=macro:->\filename@simple epstopdf-base\ETC.}
-{\else: \ifx (level 5) entered on line 169}
-{\fi: \ifx (level 5) entered on line 169}
-
-\reserved@a ->\filename@simple epstopdf-base.sty.\\
-
-\filename@simple #1.#2\\->\ifx \\#2\\\let \filename@ext \relax \else \edef \fil
-ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
-#1<-epstopdf-base
-#2<-sty.
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-{\edef}
-
-\filename@dot #1.\\->#1
-#1<-sty
-{changing \filename@ext=macro:->mkii}
-{into \filename@ext=macro:->sty}
-{\fi: \ifx (level 5) entered on line 169}
-{\edef}
-{changing \filename@base=macro:->supp-pdf}
-{into \filename@base=macro:->epstopdf-base}
-{\edef}
-
-\filename@base ->epstopdf-base
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\filename@ext ->sty
-{\fi: \ifx (level 5) entered on line 169}
-{changing \reserved@a=macro:->\filename@simple epstopdf-base\ETC.}
-{into \reserved@a=macro:->epstopdf-base.sty}
-{\expandafter}
-{\expandafter}
-{\csname}
-
-\reserved@a ->epstopdf-base.sty
-{\let}
-{changing \reserved@b=\relax}
-{into \reserved@b=macro:->2010/02/09 v2.5 Base part for \ETC.}
-{\expandafter}
-{\expandafter}
-{\expandafter}
-
-\filename@base ->epstopdf-base
-{\expandafter}
-
-\filename@area ->
-
-\@listfiles #1#2#3#4#5#6#7#8#9\@@ ->\def \reserved@d {\\}\@tfor \reserved@c :=#
-1#2#3#4#5#6#7#8\do {\ifx \reserved@c \reserved@d \edef \filename@area { \filena
-me@area }\fi }
-#1<-e
-#2<-p
-#3<-s
-#4<-t
-#5<-o
-#6<-p
-#7<-d
-#8<-f
-#9<--base\\\\\\\\\\\\\\\\\\
-{\def}
-{changing \reserved@d=macro:->\\}
-{into \reserved@d=macro:->\\}
-
-\@tfor #1:=->\@tf@r #1 
-#1<-\reserved@c 
-
-\@tf@r #1#2\do #3->\def \@fortmp {#2}\ifx \@fortmp \space \else \@tforloop #2\@
-nil \@nil \@@ #1{#3}\fi 
-#1<-\reserved@c 
-#2<- epstopdf
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \@fortmp=macro:-> supp-pdf}
-{into \@fortmp=macro:-> epstopdf}
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-e
-#2<-pstopdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->\@nil }
-{into \reserved@c=macro:->e}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-p
-#2<-stopdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->e}
-{into \reserved@c=macro:->p}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-s
-#2<-topdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->p}
-{into \reserved@c=macro:->s}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-t
-#2<-opdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->s}
-{into \reserved@c=macro:->t}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-o
-#2<-pdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->t}
-{into \reserved@c=macro:->o}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-p
-#2<-df\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->o}
-{into \reserved@c=macro:->p}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-d
-#2<-f\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->p}
-{into \reserved@c=macro:->d}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-f
-#2<-\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->d}
-{into \reserved@c=macro:->f}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-\@nil 
-#2<-\@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->f}
-{into \reserved@c=macro:->\@nil }
-{\ifx: (level 6) entered on line 169}
-{true}
-{\expandafter}
-{\else: \ifx (level 6) entered on line 169}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@fornoop #1\@@ #2#3->
-#1<-\@nil 
-#2<-\reserved@c 
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\fi: \ifx (level 5) entered on line 169}
-
-\typeout #1->\begingroup \set@display@protect \immediate \write \@unused {#1}\e
-ndgroup 
-#1<-\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \reserved
-@b \fi 
-{\begingroup}
-{entering semi simple group (level 2) at line 169}
-
-\set@display@protect ->\let \protect \string 
-{\let}
-{changing \protect=\relax}
-{into \protect=\string}
-
-\immediate ->\let \write \immediate@write \let \openout \immediate@openout \let
- \closeout \immediate@closeout \let \special \immediate@special 
-{\let}
-{changing \write=\long macro:#1{->\pending@@write {#1}{}
-{into \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{into \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{into \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \special=\special}
-{into \special=macro:->\reset@immediate \@@@immediate \ETC.}
-
-\write ->\reset@immediate \@@@immediate \@@@write 
-
-\reset@immediate ->\let \write \pending@write \let \openout \pending@openout \l
-et \closeout \pending@closeout \let \special \@@@special 
-{\let}
-{changing \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \write=\long macro:#1{->\pending@@write {#1}{}
-{\let}
-{changing \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \special=\special}
-{\immediate}
-\write->\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi 
-
-\filename@area ->
-
-\reserved@a ->epstopdf-base.sty
-{no mode: \ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\reserved@b ->2010/02/09 v2.5 Base part for package epstopdf
-{\fi: \ifx (level 5) entered on line 169}
-epstopdf-base.sty    2010/02/09 v2.5 Base part for package epstopdf
-{vertical mode: \endgroup}
-{restoring \special=\special}
-{restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{restoring \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{restoring \write=\long macro:#1{->\pending@@write {#1}{}
-{restoring \protect=\relax}
-{leaving semi simple group (level 2) entered at line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 4) entered on line 169}
-
-\@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
- #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
-#1<-grfext.sty
-#2<-epstopdf-sys.cfg,nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1
-ztmcm.fd,omlztmcm.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\
-@nil 
-#3<-\@currname 
-#4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
-e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
-ed@b \csname ver@\reserved@a \endcsname \expandafter \expandafter \expandafter 
-\@listfiles \expandafter \filename@area \filename@base \\\\\\\\\\\\\\\\\\\@@ \t
-ypeout {\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi }
-{\def}
-{changing \@currname=macro:->epstopdf-base.sty}
-{into \@currname=macro:->grfext.sty}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-
-\filename@parse #1->\let \filename@area \@empty \expandafter \filename@path #1/
-\\
-#1<-\@currname 
-{\let}
-{reassigning \filename@area=macro:->}
-{\expandafter}
-
-\@currname ->grfext.sty
-
-\filename@path #1/#2\\->\ifx \\#2\\\def \reserved@a {\filename@simple #1.\\}\el
-se \edef \filename@area {\filename@area #1/}\def \reserved@a {\filename@path #2
-\\}\fi \reserved@a 
-#1<-grfext.sty
-#2<-
-{\ifx: (level 5) entered on line 169}
-{true}
-{\def}
-{changing \reserved@a=macro:->epstopdf-base.sty}
-{into \reserved@a=macro:->\filename@simple grfext.sty.\\}
-{\else: \ifx (level 5) entered on line 169}
-{\fi: \ifx (level 5) entered on line 169}
-
-\reserved@a ->\filename@simple grfext.sty.\\
-
-\filename@simple #1.#2\\->\ifx \\#2\\\let \filename@ext \relax \else \edef \fil
-ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
-#1<-grfext
-#2<-sty.
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-{\edef}
-
-\filename@dot #1.\\->#1
-#1<-sty
-{changing \filename@ext=macro:->sty}
-{into \filename@ext=macro:->sty}
-{\fi: \ifx (level 5) entered on line 169}
-{\edef}
-{changing \filename@base=macro:->epstopdf-base}
-{into \filename@base=macro:->grfext}
-{\edef}
-
-\filename@base ->grfext
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\filename@ext ->sty
-{\fi: \ifx (level 5) entered on line 169}
-{changing \reserved@a=macro:->\filename@simple grfext.sty.\\}
-{into \reserved@a=macro:->grfext.sty}
-{\expandafter}
-{\expandafter}
-{\csname}
-
-\reserved@a ->grfext.sty
-{\let}
-{changing \reserved@b=macro:->2010/02/09 v2.5 Base part for \ETC.}
-{into \reserved@b=macro:->2010/08/19 v1.1 Managing graph\ETC.}
-{\expandafter}
-{\expandafter}
-{\expandafter}
-
-\filename@base ->grfext
-{\expandafter}
-
-\filename@area ->
-
-\@listfiles #1#2#3#4#5#6#7#8#9\@@ ->\def \reserved@d {\\}\@tfor \reserved@c :=#
-1#2#3#4#5#6#7#8\do {\ifx \reserved@c \reserved@d \edef \filename@area { \filena
-me@area }\fi }
-#1<-g
-#2<-r
-#3<-f
-#4<-e
-#5<-x
-#6<-t
-#7<-\\
-#8<-\\
-#9<-\\\\\\\\\\\\\\
-{\def}
-{changing \reserved@d=macro:->\\}
-{into \reserved@d=macro:->\\}
-
-\@tfor #1:=->\@tf@r #1 
-#1<-\reserved@c 
-
-\@tf@r #1#2\do #3->\def \@fortmp {#2}\ifx \@fortmp \space \else \@tforloop #2\@
-nil \@nil \@@ #1{#3}\fi 
-#1<-\reserved@c 
-#2<- grfext\\\\
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \@fortmp=macro:-> epstopdf}
-{into \@fortmp=macro:-> grfext\\\\}
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-g
-#2<-rfext\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->\@nil }
-{into \reserved@c=macro:->g}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-r
-#2<-fext\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->g}
-{into \reserved@c=macro:->r}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-f
-#2<-ext\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->r}
-{into \reserved@c=macro:->f}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-e
-#2<-xt\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->f}
-{into \reserved@c=macro:->e}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-x
-#2<-t\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->e}
-{into \reserved@c=macro:->x}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-t
-#2<-\\\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->x}
-{into \reserved@c=macro:->t}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-\\
-#2<-\\\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->t}
-{into \reserved@c=macro:->\\}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{true}
-{\edef}
-
-\filename@area ->
-{changing \filename@area=macro:->}
-{into \filename@area=macro:-> }
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-\\
-#2<-\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->\\}
-{into \reserved@c=macro:->\\}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{true}
-{\edef}
-
-\filename@area -> 
-{changing \filename@area=macro:-> }
-{into \filename@area=macro:->  }
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-\@nil 
-#2<-\@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->\\}
-{into \reserved@c=macro:->\@nil }
-{\ifx: (level 6) entered on line 169}
-{true}
-{\expandafter}
-{\else: \ifx (level 6) entered on line 169}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@fornoop #1\@@ #2#3->
-#1<-\@nil 
-#2<-\reserved@c 
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\fi: \ifx (level 5) entered on line 169}
-
-\typeout #1->\begingroup \set@display@protect \immediate \write \@unused {#1}\e
-ndgroup 
-#1<-\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \reserved
-@b \fi 
-{\begingroup}
-{entering semi simple group (level 2) at line 169}
-
-\set@display@protect ->\let \protect \string 
-{\let}
-{changing \protect=\relax}
-{into \protect=\string}
-
-\immediate ->\let \write \immediate@write \let \openout \immediate@openout \let
- \closeout \immediate@closeout \let \special \immediate@special 
-{\let}
-{changing \write=\long macro:#1{->\pending@@write {#1}{}
-{into \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{into \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{into \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \special=\special}
-{into \special=macro:->\reset@immediate \@@@immediate \ETC.}
-
-\write ->\reset@immediate \@@@immediate \@@@write 
-
-\reset@immediate ->\let \write \pending@write \let \openout \pending@openout \l
-et \closeout \pending@closeout \let \special \@@@special 
-{\let}
-{changing \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \write=\long macro:#1{->\pending@@write {#1}{}
-{\let}
-{changing \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \special=\special}
-{\immediate}
-\write->\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi 
-
-\filename@area ->  
-
-\reserved@a ->grfext.sty
-{no mode: \ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\reserved@b ->2010/08/19 v1.1 Managing graphics extensions (HO)
-{\fi: \ifx (level 5) entered on line 169}
-  grfext.sty    2010/08/19 v1.1 Managing graphics extensions (HO)
-{vertical mode: \endgroup}
-{restoring \special=\special}
-{restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{restoring \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{restoring \write=\long macro:#1{->\pending@@write {#1}{}
-{restoring \protect=\relax}
-{leaving semi simple group (level 2) entered at line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 4) entered on line 169}
-
-\@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
- #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
-#1<-epstopdf-sys.cfg
-#2<-nameref.sty,gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm
-.fd,omsztmcm.fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
-#3<-\@currname 
-#4<-\filename@parse \@currname \edef \reserved@a {\filename@base .\ifx \filenam
-e@ext \relax tex\else \filename@ext \fi }\expandafter \let \expandafter \reserv
-ed@b \csname ver@\reserved@a \endcsname \expandafter \expandafter \expandafter 
-\@listfiles \expandafter \filename@area \filename@base \\\\\\\\\\\\\\\\\\\@@ \t
-ypeout {\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi }
-{\def}
-{changing \@currname=macro:->grfext.sty}
-{into \@currname=macro:->epstopdf-sys.cfg}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-
-\filename@parse #1->\let \filename@area \@empty \expandafter \filename@path #1/
-\\
-#1<-\@currname 
-{\let}
-{changing \filename@area=macro:->  }
-{into \filename@area=macro:->}
-{\expandafter}
-
-\@currname ->epstopdf-sys.cfg
-
-\filename@path #1/#2\\->\ifx \\#2\\\def \reserved@a {\filename@simple #1.\\}\el
-se \edef \filename@area {\filename@area #1/}\def \reserved@a {\filename@path #2
-\\}\fi \reserved@a 
-#1<-epstopdf-sys.cfg
-#2<-
-{\ifx: (level 5) entered on line 169}
-{true}
-{\def}
-{changing \reserved@a=macro:->grfext.sty}
-{into \reserved@a=macro:->\filename@simple epstopdf-sys.\ETC.}
-{\else: \ifx (level 5) entered on line 169}
-{\fi: \ifx (level 5) entered on line 169}
-
-\reserved@a ->\filename@simple epstopdf-sys.cfg.\\
-
-\filename@simple #1.#2\\->\ifx \\#2\\\let \filename@ext \relax \else \edef \fil
-ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
-#1<-epstopdf-sys
-#2<-cfg.
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-{\edef}
-
-\filename@dot #1.\\->#1
-#1<-cfg
-{changing \filename@ext=macro:->sty}
-{into \filename@ext=macro:->cfg}
-{\fi: \ifx (level 5) entered on line 169}
-{\edef}
-{changing \filename@base=macro:->grfext}
-{into \filename@base=macro:->epstopdf-sys}
-{\edef}
-
-\filename@base ->epstopdf-sys
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\filename@ext ->cfg
-{\fi: \ifx (level 5) entered on line 169}
-{changing \reserved@a=macro:->\filename@simple epstopdf-sys.\ETC.}
-{into \reserved@a=macro:->epstopdf-sys.cfg}
-{\expandafter}
-{\expandafter}
-{\csname}
-
-\reserved@a ->epstopdf-sys.cfg
-{\let}
-{changing \reserved@b=macro:->2010/08/19 v1.1 Managing graph\ETC.}
-{into \reserved@b=macro:->2010/07/13 v1.3 Configuration \ETC.}
-{\expandafter}
-{\expandafter}
-{\expandafter}
-
-\filename@base ->epstopdf-sys
-{\expandafter}
-
-\filename@area ->
-
-\@listfiles #1#2#3#4#5#6#7#8#9\@@ ->\def \reserved@d {\\}\@tfor \reserved@c :=#
-1#2#3#4#5#6#7#8\do {\ifx \reserved@c \reserved@d \edef \filename@area { \filena
-me@area }\fi }
-#1<-e
-#2<-p
-#3<-s
-#4<-t
-#5<-o
-#6<-p
-#7<-d
-#8<-f
-#9<--sys\\\\\\\\\\\\\\\\\\
-{\def}
-{changing \reserved@d=macro:->\\}
-{into \reserved@d=macro:->\\}
-
-\@tfor #1:=->\@tf@r #1 
-#1<-\reserved@c 
-
-\@tf@r #1#2\do #3->\def \@fortmp {#2}\ifx \@fortmp \space \else \@tforloop #2\@
-nil \@nil \@@ #1{#3}\fi 
-#1<-\reserved@c 
-#2<- epstopdf
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \@fortmp=macro:-> grfext\\\\}
-{into \@fortmp=macro:-> epstopdf}
-{\ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-e
-#2<-pstopdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->\@nil }
-{into \reserved@c=macro:->e}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-p
-#2<-stopdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->e}
-{into \reserved@c=macro:->p}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-s
-#2<-topdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->p}
-{into \reserved@c=macro:->s}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-t
-#2<-opdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->s}
-{into \reserved@c=macro:->t}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-o
-#2<-pdf\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->t}
-{into \reserved@c=macro:->o}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-p
-#2<-df\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->o}
-{into \reserved@c=macro:->p}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-d
-#2<-f\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->p}
-{into \reserved@c=macro:->d}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-f
-#2<-\@nil \@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->d}
-{into \reserved@c=macro:->f}
-{\ifx: (level 6) entered on line 169}
-{false}
-{\else: \ifx (level 6) entered on line 169}
-{\ifx: (level 7) entered on line 169}
-{false}
-{\fi: \ifx (level 7) entered on line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@tforloop #1#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else 
-#4\relax \expandafter \@tforloop \fi #2\@@ #3{#4}
-#1<-\@nil 
-#2<-\@nil 
-#3<-\reserved@c 
-#4<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\def}
-{changing \reserved@c=macro:->f}
-{into \reserved@c=macro:->\@nil }
-{\ifx: (level 6) entered on line 169}
-{true}
-{\expandafter}
-{\else: \ifx (level 6) entered on line 169}
-{\fi: \ifx (level 6) entered on line 169}
-
-\@fornoop #1\@@ #2#3->
-#1<-\@nil 
-#2<-\reserved@c 
-#3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
-{\fi: \ifx (level 5) entered on line 169}
-
-\typeout #1->\begingroup \set@display@protect \immediate \write \@unused {#1}\e
-ndgroup 
-#1<-\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \reserved
-@b \fi 
-{\begingroup}
-{entering semi simple group (level 2) at line 169}
-
-\set@display@protect ->\let \protect \string 
-{\let}
-{changing \protect=\relax}
-{into \protect=\string}
-
-\immediate ->\let \write \immediate@write \let \openout \immediate@openout \let
- \closeout \immediate@closeout \let \special \immediate@special 
-{\let}
-{changing \write=\long macro:#1{->\pending@@write {#1}{}
-{into \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{into \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{into \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \special=\special}
-{into \special=macro:->\reset@immediate \@@@immediate \ETC.}
-
-\write ->\reset@immediate \@@@immediate \@@@write 
-
-\reset@immediate ->\let \write \pending@write \let \openout \pending@openout \l
-et \closeout \pending@closeout \let \special \@@@special 
-{\let}
-{changing \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \write=\long macro:#1{->\pending@@write {#1}{}
-{\let}
-{changing \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \special=\special}
-{\immediate}
-\write->\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
-rved@b \fi 
-
-\filename@area ->
-
-\reserved@a ->epstopdf-sys.cfg
-{no mode: \ifx: (level 5) entered on line 169}
-{false}
-{\else: \ifx (level 5) entered on line 169}
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\reserved@b ->2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-{\fi: \ifx (level 5) entered on line 169}
-epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-{vertical mode: \endgroup}
-{restoring \special=\special}
-{restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{restoring \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{restoring \write=\long macro:#1{->\pending@@write {#1}{}
-{restoring \protect=\relax}
-{leaving semi simple group (level 2) entered at line 169}
-{\relax}
-{\expandafter}
-{\fi: \ifx (level 4) entered on line 169}
-
-\@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
- #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-nameref.sty
 #2<-gettitlestring.sty,leaflet.out,leaflet.out,ot1ztmcm.fd,omlztmcm.fd,omsztmcm
 .fd,omxztmcm.fd,ot1ptm.fd,images/logo.png,\@nil ,\@nil 
@@ -32651,7 +31442,7 @@ ed@b \csname ver@\reserved@a \endcsname \expandafter \expandafter \expandafter
 ypeout {\filename@area \reserved@a \ifx \reserved@b \relax \else \@spaces \rese
 rved@b \fi }
 {\def}
-{changing \@currname=macro:->epstopdf-sys.cfg}
+{changing \@currname=macro:->supp-pdf.mkii}
 {into \@currname=macro:->nameref.sty}
 {\ifx: (level 4) entered on line 169}
 {false}
@@ -32674,7 +31465,7 @@ se \edef \filename@area {\filename@area #1/}\def \reserved@a {\filename@path #2
 {\ifx: (level 5) entered on line 169}
 {true}
 {\def}
-{changing \reserved@a=macro:->epstopdf-sys.cfg}
+{changing \reserved@a=macro:->supp-pdf.mkii}
 {into \reserved@a=macro:->\filename@simple nameref.sty.\\}
 {\else: \ifx (level 5) entered on line 169}
 {\fi: \ifx (level 5) entered on line 169}
@@ -32692,11 +31483,11 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \filename@dot #1.\\->#1
 #1<-sty
-{changing \filename@ext=macro:->cfg}
+{changing \filename@ext=macro:->mkii}
 {into \filename@ext=macro:->sty}
 {\fi: \ifx (level 5) entered on line 169}
 {\edef}
-{changing \filename@base=macro:->epstopdf-sys}
+{changing \filename@base=macro:->supp-pdf}
 {into \filename@base=macro:->nameref}
 {\edef}
 
@@ -32715,7 +31506,7 @@ ename@ext {\filename@dot #2\\}\fi \edef \filename@base {#1}
 
 \reserved@a ->nameref.sty
 {\let}
-{changing \reserved@b=macro:->2010/07/13 v1.3 Configuration \ETC.}
+{changing \reserved@b=\relax}
 {into \reserved@b=macro:->2010/04/30 v2.40 Cross-referen\ETC.}
 {\expandafter}
 {\expandafter}
@@ -32751,7 +31542,7 @@ nil \@nil \@@ #1{#3}\fi
 #2<- nameref\\
 #3<-\ifx \reserved@c \reserved@d \edef \filename@area { \filename@area }\fi 
 {\def}
-{changing \@fortmp=macro:-> epstopdf}
+{changing \@fortmp=macro:-> supp-pdf}
 {into \@fortmp=macro:-> nameref\\}
 {\ifx: (level 5) entered on line 169}
 {false}
@@ -36589,228 +35380,21 @@ et \closeout \pending@closeout \let \special \@@@special
 {\pdffilesize}
 {\jobname}
 {changing \x=undefined}
-{into \x=macro:->82A144FE9F9BB1710990760AA0D577\ETC.}
+{into \x=macro:->E438640A03A66B04CD7001A52652FB\ETC.}
 {\ifx: (level 2) entered on line 169}
 {false}
 {\fi: \ifx (level 2) entered on line 169}
 {\ifx: (level 2) entered on line 169}
-{false}
-{\else: \ifx (level 2) entered on line 169}
-{\ifnum: (level 3) entered on line 169}
-
-\ReFiCh@IsAux #1.aux\relax #2\@nil ->\ifx \hbox #2\hbox 0\else 1\fi 
-#1<-\jobname .out\relax 
-#2<-
-{\ifx: (level 4) entered on line 169}
 {true}
-{\else: \ifx (level 4) entered on line 169}
-{\fi: \ifx (level 4) entered on line 169}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-{\fi: \ifx (level 4) entered on line 169}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-{\ifx: (level 5) entered on line 169}
-{false}
-{\fi: \ifx (level 5) entered on line 169}
-{\fi: \ifx (level 4) entered on line 169}
-{false}
-{\else: \ifnum (level 3) entered on line 169}
-
-\@PackageWarningNoLine #1#2->\PackageWarning {#1}{#2\@gobble }
-#1<-rerunfilecheck
-#2<-File `\jobname .out' has changed.\ifx \\Rerun to get outlines right\Message
-Break or use package `bookmark'\\\space Rerun\else \MessageBreak Rerun to get o
-utlines right\MessageBreak or use package `bookmark'\fi 
-
-\PackageWarning #1#2->\GenericWarning {(#1)\@spaces \@spaces \@spaces \@spaces 
-}{Package #1 Warning: #2}
-#1<-rerunfilecheck
-#2<-File `\jobname .out' has changed.\ifx \\Rerun to get outlines right\Message
-Break or use package `bookmark'\\\space Rerun\else \MessageBreak Rerun to get o
-utlines right\MessageBreak or use package `bookmark'\fi \@gobble 
-
-\GenericWarning ->\protect \GenericWarning  
-{\relax}
-
-\GenericWarning  #1#2->\begingroup \def \MessageBreak {
-#1}\set@display@protect \immediate \write \@unused {
-#2\on@line .
-}\endgroup 
-#1<-(rerunfilecheck)\@spaces \@spaces \@spaces \@spaces 
-#2<-Package rerunfilecheck Warning: File `\jobname .out' has changed.\ifx \\Rer
-un to get outlines right\MessageBreak or use package `bookmark'\\\space Rerun\e
-lse \MessageBreak Rerun to get outlines right\MessageBreak or use package `book
-mark'\fi \@gobble 
-{\begingroup}
-{entering semi simple group (level 3) at line 169}
-{\def}
-{changing \MessageBreak=\relax}
-{into \MessageBreak=macro:->
-(rerunfilecheck)\@spaces \@spaces \ETC.}
-
-\set@display@protect ->\let \protect \string 
-{\let}
-{changing \protect=\relax}
-{into \protect=\string}
-
-\immediate ->\let \write \immediate@write \let \openout \immediate@openout \let
- \closeout \immediate@closeout \let \special \immediate@special 
-{\let}
-{changing \write=\long macro:#1{->\pending@@write {#1}{}
-{into \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{into \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{into \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \special=\special}
-{into \special=macro:->\reset@immediate \@@@immediate \ETC.}
-
-\write ->\reset@immediate \@@@immediate \@@@write 
-
-\reset@immediate ->\let \write \pending@write \let \openout \pending@openout \l
-et \closeout \pending@closeout \let \special \@@@special 
-{\let}
-{changing \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \write=\long macro:#1{->\pending@@write {#1}{}
-{\let}
-{changing \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \special=\special}
-{\immediate}
-\write->
-Package rerunfilecheck Warning: File `\jobname .out' has changed.\ifx \\Rerun t
-o get outlines right\MessageBreak or use package `bookmark'\\\space Rerun\else 
-\MessageBreak Rerun to get outlines right\MessageBreak or use package `bookmark
-'\fi \@gobble \on@line .
-{no mode: \jobname}
-{\ifx: (level 4) entered on line 169}
-{false}
-{\else: \ifx (level 4) entered on line 169}
-
-\MessageBreak ->
-(rerunfilecheck)\@spaces \@spaces \@spaces \@spaces 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\MessageBreak ->
-(rerunfilecheck)\@spaces \@spaces \@spaces \@spaces 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-{\fi: \ifx (level 4) entered on line 169}
-
-\@gobble #1->
-#1<-\on@line 
-
-Package rerunfilecheck Warning: File `leaflet.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-{vertical mode: \endgroup}
-{restoring \special=\special}
-{restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{restoring \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{restoring \write=\long macro:#1{->\pending@@write {#1}{}
-{restoring \protect=\relax}
-{restoring \MessageBreak=\relax}
-{leaving semi simple group (level 3) entered at line 169}
 
 \@PackageInfoNoLine #1#2->\PackageInfo {#1}{#2\@gobble }
 #1<-rerunfilecheck
-#2<-Checksums for `\jobname .out':\MessageBreak Before: \ReFiCh@1 \MessageBreak
- After: \space \x 
+#2<-File `\jobname .out' has not changed.\MessageBreak Checksum: \x 
 
 \PackageInfo #1#2->\GenericInfo {(#1) \@spaces \@spaces \@spaces }{Package #1 I
 nfo: #2}
 #1<-rerunfilecheck
-#2<-Checksums for `\jobname .out':\MessageBreak Before: \ReFiCh@1 \MessageBreak
- After: \space \x \@gobble 
+#2<-File `\jobname .out' has not changed.\MessageBreak Checksum: \x \@gobble 
 
 \GenericInfo ->\protect \GenericInfo  
 {\relax}
@@ -36818,8 +35402,8 @@ nfo: #2}
 \GenericInfo  #1#2->\begingroup \def \MessageBreak {
 #1}\set@display@protect \immediate \write \m@ne {#2\on@line .}\endgroup 
 #1<-(rerunfilecheck) \@spaces \@spaces \@spaces 
-#2<-Package rerunfilecheck Info: Checksums for `\jobname .out':\MessageBreak Be
-fore: \ReFiCh@1 \MessageBreak After: \space \x \@gobble 
+#2<-Package rerunfilecheck Info: File `\jobname .out' has not changed.\MessageB
+reak Checksum: \x \@gobble 
 {\begingroup}
 {entering semi simple group (level 3) at line 169}
 {\def}
@@ -36864,8 +35448,8 @@ et \closeout \pending@closeout \let \special \@@@special
 {changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
 {into \special=\special}
 {\immediate}
-\write->Package rerunfilecheck Info: Checksums for `\jobname .out':\MessageBrea
-k Before: \ReFiCh@1 \MessageBreak After: \space \x \@gobble \on@line .
+\write->Package rerunfilecheck Info: File `\jobname .out' has not changed.\Mess
+ageBreak Checksum: \x \@gobble \on@line .
 {no mode: \jobname}
 
 \MessageBreak ->
@@ -36901,50 +35485,12 @@ k Before: \ReFiCh@1 \MessageBreak After: \space \x \@gobble \on@line .
 
 \space -> 
 
-\ReFiCh@1 ->E0C727B095706D455320819782A7E317;221
-
-\MessageBreak ->
-(rerunfilecheck) \@spaces \@spaces \@spaces 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\@spaces ->\space \space \space \space 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\space -> 
-
-\x ->82A144FE9F9BB1710990760AA0D5775F;277
+\x ->E438640A03A66B04CD7001A52652FB1B;282
 
 \@gobble #1->
 #1<-\on@line 
-Package rerunfilecheck Info: Checksums for `leaflet.out':
-(rerunfilecheck)             Before: E0C727B095706D455320819782A7E317;221
-(rerunfilecheck)             After:  82A144FE9F9BB1710990760AA0D5775F;277.
+Package rerunfilecheck Info: File `leaflet.out' has not changed.
+(rerunfilecheck)             Checksum: E438640A03A66B04CD7001A52652FB1B;282.
 {vertical mode: \endgroup}
 {restoring \special=\special}
 {restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
@@ -36953,7 +35499,7 @@ Package rerunfilecheck Info: Checksums for `leaflet.out':
 {restoring \protect=\relax}
 {restoring \MessageBreak=\relax}
 {leaving semi simple group (level 3) entered at line 169}
-{\fi: \ifnum (level 3) entered on line 169}
+{\else: \ifx (level 2) entered on line 169}
 {\fi: \ifx (level 2) entered on line 169}
 {\endgroup}
 {restoring \x=undefined}
@@ -36973,7 +35519,6 @@ iate \closeout \ETC.}
 {globally changing \Call@AtEndAfterFileList=macro:->\Call@AtVeryEndDocument \le
 t \AtEndAfterFileList \ETC.}
 {into \Call@AtEndAfterFileList=\relax}
-{\relax}
 {\ifdim: (level 1) entered on line 169}
 
 \font@submax ->0pt
@@ -37026,98 +35571,6 @@ ntHook }
 {restoring \write=\long macro:#1{->\pending@@write {#1}{}
 {leaving semi simple group (level 1) entered at line 169}
 {\deadcycles}
-
-\Call@AtVeryVeryEnd ->\Call@AtEndAfterFileList \let \AtVeryVeryEnd \@firstofone
- \ifx \AtVeryEnd@AtVeryVeryEndHook \@empty \PackageInfo {atveryend}{Empty hook 
-`AtVeryVeryEnd'}\else \PackageInfo {atveryend}{Executing hook `AtVeryVeryEnd'}\
-AtVeryEnd@AtVeryVeryEndHook \fi \global \let \AtVeryEnd@AtVeryVeryEndHook \@und
-efined \global \let \Call@AtVeryVeryEnd \relax 
-{\relax}
-{\let}
-{changing \AtVeryVeryEnd=macro:->\g@addto@macro \AtVeryEnd@AtVeryVeryEndHook }
-{into \AtVeryVeryEnd=\long macro:#1->#1}
-{\ifx: (level 1) entered on line 169}
-{true}
-
-\PackageInfo #1#2->\GenericInfo {(#1) \@spaces \@spaces \@spaces }{Package #1 I
-nfo: #2}
-#1<-atveryend
-#2<-Empty hook `AtVeryVeryEnd'
-
-\GenericInfo ->\protect \GenericInfo  
-{\relax}
-
-\GenericInfo  #1#2->\begingroup \def \MessageBreak {
-#1}\set@display@protect \immediate \write \m@ne {#2\on@line .}\endgroup 
-#1<-(atveryend) \@spaces \@spaces \@spaces 
-#2<-Package atveryend Info: Empty hook `AtVeryVeryEnd'
-{\begingroup}
-{entering semi simple group (level 1) at line 169}
-{\def}
-{changing \MessageBreak=\relax}
-{into \MessageBreak=macro:->
-(atveryend) \@spaces \@spaces \ETC.}
-
-\set@display@protect ->\let \protect \string 
-{\let}
-{changing \protect=\relax}
-{into \protect=\string}
-
-\immediate ->\let \write \immediate@write \let \openout \immediate@openout \let
- \closeout \immediate@closeout \let \special \immediate@special 
-{\let}
-{changing \write=\long macro:#1{->\pending@@write {#1}{}
-{into \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{into \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{into \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{\let}
-{changing \special=\special}
-{into \special=macro:->\reset@immediate \@@@immediate \ETC.}
-
-\write ->\reset@immediate \@@@immediate \@@@write 
-
-\reset@immediate ->\let \write \pending@write \let \openout \pending@openout \l
-et \closeout \pending@closeout \let \special \@@@special 
-{\let}
-{changing \write=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \write=\long macro:#1{->\pending@@write {#1}{}
-{\let}
-{changing \openout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \closeout=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{\let}
-{changing \special=macro:->\reset@immediate \@@@immediate \ETC.}
-{into \special=\special}
-{\immediate}
-\write->Package atveryend Info: Empty hook `AtVeryVeryEnd'\on@line .
-
-\on@line -> on input line \the \inputlineno 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
-{\endgroup}
-{restoring \special=\special}
-{restoring \closeout=macro:#1->\global \advance \c@@@total@outs \ETC.}
-{restoring \openout=macro:#1 ->\global \advance \c@@@total@outs \ETC.}
-{restoring \write=\long macro:#1{->\pending@@write {#1}{}
-{restoring \protect=\relax}
-{restoring \MessageBreak=\relax}
-{leaving semi simple group (level 1) entered at line 169}
-{\else: \ifx (level 1) entered on line 169}
-{\fi: \ifx (level 1) entered on line 169}
-{\global}
-{\let}
-{globally changing \AtVeryEnd@AtVeryVeryEndHook=macro:->}
-{into \AtVeryEnd@AtVeryVeryEndHook=undefined}
-{\global}
-{\let}
-{globally changing \Call@AtVeryVeryEnd=macro:->\Call@AtEndAfterFileList \let \E
-TC.}
-{into \Call@AtVeryVeryEnd=\relax}
 
 \@@end ->\clearpage \pagestyle {empty}\let \@outputpage \LL@outputpage \def \@E
 veryShipout@Hook {}\def \@EveryShipout@AtNextHook {}\EveryShipout {\LL@savePage
@@ -37543,7 +35996,7 @@ utbox \vskip -\dimen@ \@textbottom }\fi \global \maxdepth \@maxdepth
 {\setbox}
 {changing \box23=void}
 {into \box23=
-\vbox(534.91183+0.0)x0.0, glue set 524.91183fil []}
+\vbox(534.91183+0.0)x0.0, glue set 524.91187fil []}
 {\else: \ifvoid (level 3) entered on line 169}
 {\fi: \ifvoid (level 3) entered on line 169}
 {\let}
@@ -37627,11 +36080,11 @@ unter {page}\let \firstmark \botmark
 {changing \protect=\relax}
 {into \protect=\noexpand}
 
-\@resetactivechars ->\def ^^M{\@activechar@info {EOL}\space }\def  {\@activecha
-r@info {space}\space }\let '\active@math@prime 
+\@resetactivechars ->\def {\@activechar@info {EOL}\space }\def  {\@activechar@
+info {space}\space }\let '\active@math@prime 
 {\def}
-{changing ^^M=\par}
-{into ^^M=macro:->\@activechar@info {EOL}\space }
+{changing =\par}
+{into =macro:->\@activechar@info {EOL}\space }
 {\def}
 {changing  =macro:-> }
 {into  =macro:->\@activechar@info {space}\space }
@@ -42126,7 +40579,7 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 {into \@the@H@page=macro:->5}
 
 \PE@NormalizeLineEnd #1->\def \PE@result {}\expandafter \PE@@NormalizeLineEnd #
-1^^M\relax \let #1\PE@result 
+1\relax \let #1\PE@result 
 #1<-\@the@H@page 
 {\def}
 {changing \PE@result=undefined}
@@ -42135,8 +40588,8 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 
 \@the@H@page ->5
 
-\PE@@NormalizeLineEnd #1^^M#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\l
-et \PE@next \relax \else \edef \PE@result {\PE@result #1
+\PE@@NormalizeLineEnd #1#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\let
+ \PE@next \relax \else \edef \PE@result {\PE@result #1
 }\ifx 
 #2\let \PE@next \PE@@NormalizeLineEnd \else \def \PE@next {\PE@@NormalizeLineEn
 d #2}\fi \fi \PE@next 
@@ -42176,13 +40629,13 @@ d #2}\fi \fi \PE@next
  \relax \else \if n#2\uccode \ltx@zero =10 \else \if r#2\uccode \ltx@zero =13 \
 else \if t#2\uccode \ltx@zero =9 \else \if b#2\uccode \ltx@zero =8 \else \if f#
 2\uccode \ltx@zero =12 \else \uccode \ltx@zero =\ltx@zero \fi \fi \fi \fi \fi \
-ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp {^^@}}\edef \PE@r
-esult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE
-@result {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 
-\edef \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Te
-stOctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \
-edef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi
- \PE@next 
+ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp { }}\edef \PE@res
+ult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE@r
+esult {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 \e
+def \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Test
+OctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \ed
+ef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi \
+PE@next 
 #1<-5
 #2<-\relax 
 {\ifx: (level 10) entered on line 169}
@@ -43389,7 +41842,7 @@ stpelt \csname cl@LL@page\endcsname \endgroup
 {restoring \`=macro:->\PD1-cmd \`\PD1\` }
 {restoring \'=macro:->\PD1-cmd \'\PD1\' }
 {restoring  =macro:-> }
-{restoring ^^M=\par}
+{restoring =\par}
 {restoring \protect=\relax}
 {leaving semi simple group (level 2) entered at line 169}
 
@@ -43686,7 +42139,7 @@ utbox \vskip -\dimen@ \@textbottom }\fi \global \maxdepth \@maxdepth
 {\setbox}
 {changing \box23=void}
 {into \box23=
-\vbox(534.91183+0.0)x0.0, glue set 524.91183fil []}
+\vbox(534.91183+0.0)x0.0, glue set 524.91187fil []}
 {\else: \ifvoid (level 3) entered on line 169}
 {\fi: \ifvoid (level 3) entered on line 169}
 {\let}
@@ -43770,11 +42223,11 @@ unter {page}\let \firstmark \botmark
 {changing \protect=\relax}
 {into \protect=\noexpand}
 
-\@resetactivechars ->\def ^^M{\@activechar@info {EOL}\space }\def  {\@activecha
-r@info {space}\space }\let '\active@math@prime 
+\@resetactivechars ->\def {\@activechar@info {EOL}\space }\def  {\@activechar@
+info {space}\space }\let '\active@math@prime 
 {\def}
-{changing ^^M=\par}
-{into ^^M=macro:->\@activechar@info {EOL}\space }
+{changing =\par}
+{into =macro:->\@activechar@info {EOL}\space }
 {\def}
 {changing  =macro:-> }
 {into  =macro:->\@activechar@info {space}\space }
@@ -48269,7 +46722,7 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 {into \@the@H@page=macro:->6}
 
 \PE@NormalizeLineEnd #1->\def \PE@result {}\expandafter \PE@@NormalizeLineEnd #
-1^^M\relax \let #1\PE@result 
+1\relax \let #1\PE@result 
 #1<-\@the@H@page 
 {\def}
 {changing \PE@result=undefined}
@@ -48278,8 +46731,8 @@ terFi {\PE@SpaceToOther #2\relax }\fi
 
 \@the@H@page ->6
 
-\PE@@NormalizeLineEnd #1^^M#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\l
-et \PE@next \relax \else \edef \PE@result {\PE@result #1
+\PE@@NormalizeLineEnd #1#2->\ifx \relax #2\edef \PE@result {\PE@result #1}\let
+ \PE@next \relax \else \edef \PE@result {\PE@result #1
 }\ifx 
 #2\let \PE@next \PE@@NormalizeLineEnd \else \def \PE@next {\PE@@NormalizeLineEn
 d #2}\fi \fi \PE@next 
@@ -48319,13 +46772,13 @@ d #2}\fi \fi \PE@next
  \relax \else \if n#2\uccode \ltx@zero =10 \else \if r#2\uccode \ltx@zero =13 \
 else \if t#2\uccode \ltx@zero =9 \else \if b#2\uccode \ltx@zero =8 \else \if f#
 2\uccode \ltx@zero =12 \else \uccode \ltx@zero =\ltx@zero \fi \fi \fi \fi \fi \
-ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp {^^@}}\edef \PE@r
-esult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE
-@result {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 
-\edef \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Te
-stOctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \
-edef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi
- \PE@next 
+ifnum \uccode \ltx@zero >\ltx@zero \uppercase {\edef \PE@temp { }}\edef \PE@res
+ult {\PE@result #1\PE@temp }\let \PE@next \PE@DeString \else \if \#2\edef \PE@r
+esult {\PE@result #1}\let \PE@next \PE@CheckEndBackslash \else \ifnum `#2=10 \e
+def \PE@result {\PE@result #1}\let \PE@next \PE@DeString \else \ifcase \PE@Test
+OctDigit #2\edef \PE@result {\PE@result #1}\def \PE@next {\PE@OctI #2}\else \ed
+ef \PE@result {\PE@result #1#2}\let \PE@next \PE@DeString \fi \fi \fi \fi \fi \
+PE@next 
 #1<-6
 #2<-\relax 
 {\ifx: (level 10) entered on line 169}
@@ -49460,7 +47913,7 @@ stpelt \csname cl@LL@page\endcsname \endgroup
 {restoring \`=macro:->\PD1-cmd \`\PD1\` }
 {restoring \'=macro:->\PD1-cmd \'\PD1\' }
 {restoring  =macro:-> }
-{restoring ^^M=\par}
+{restoring =\par}
 {restoring \protect=\relax}
 {leaving semi simple group (level 2) entered at line 169}
 
@@ -51371,7 +49824,7 @@ Completed box being shipped out [1]
 ..............\hbox(253.5096+0.0)x253.5096
 ...............\pdfsave
 ...............\pdfsetmatrix{.49329 0 0 .49329}
-...............\hbox(513.92+0.0)x0.0, glue set - 513.92fil
+...............\hbox(513.92+0.0)x0.0, glue set - 513.91998fil
 ................\hbox(513.92+0.0)x513.92
 .................\pdfrefximage(513.92+0.0)x513.92
 ................\glue 0.0 plus 1.0fil minus 1.0fil
@@ -51393,10 +49846,10 @@ Completed box being shipped out [1]
 ..\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 0.0 plus 1.0fil minus 1.0fil
 
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/logo.png>
-Memory usage before: 12856&150291; after: 10851&150069; still untouched: 282472
-2
+{C:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Ja
+mes/Documents/GitHub/Durham-GPG/Leaflets/template/images/logo.png>
+Memory usage before: 12856&148268; after: 10851&148046; still untouched: 282687
+6
 
 \setcounter #1#2->\@ifundefined {c@#1}{\@nocounterr {#1}}{\calc@assign@count {\
 global \csname c@#1\endcsname }{#2}}
@@ -54046,7 +52499,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 i
 ............\T1/ptm/m/n/10 t
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^U (ligature --)
+............\T1/ptm/m/n/10  (ligature --)
 ............\discretionary
 ............\glue 2.5 plus 1.49998 minus 0.59998
 ............\T1/ptm/m/n/10 o
@@ -54359,7 +52812,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 n
 ............\T1/ptm/m/n/10 d
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 n
 ............\T1/ptm/m/n/10 d
 ............\glue 2.5 plus 1.49998 minus 0.59998
@@ -54881,7 +53334,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 t
 ............\glue 2.5 plus 1.49998 minus 0.59998
 ............\T1/ptm/m/n/10 o
-............\T1/ptm/m/n/10 ^^[ (ligature ff)
+............\T1/ptm/m/n/10  (ligature ff)
 ............\glue 2.5 plus 1.49998 minus 0.59998
 ............\T1/ptm/m/n/10 b
 ............\T1/ptm/m/n/10 y
@@ -54913,7 +53366,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 d
 ............\T1/ptm/m/n/10 e
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^U (ligature --)
+............\T1/ptm/m/n/10  (ligature --)
 ............\discretionary
 ............\glue 2.5 plus 1.49998 minus 0.59998
 ............\T1/ptm/m/n/10 m
@@ -55472,7 +53925,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 h
 ............\T1/ptm/m/n/10 e
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 r
 ............\T1/ptm/m/n/10 s
 ............\T1/ptm/m/n/10 t
@@ -56056,7 +54509,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 s
 ............\T1/ptm/m/n/10 e
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^U (ligature --)
+............\T1/ptm/m/n/10  (ligature --)
 ............\discretionary
 ............\glue 2.5 plus 1.49998 minus 0.59998
 ............\T1/ptm/m/n/10 t
@@ -56318,7 +54771,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 c
 ............\T1/ptm/m/n/10 o
 ............\T1/ptm/m/n/10 n
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 r
 ............\T1/ptm/m/n/10 m
 ............\T1/ptm/m/n/10 a
@@ -56608,7 +55061,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 e
 ............\T1/ptm/m/n/10 r
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 e
 ............\T1/ptm/m/n/10 l
 ............\T1/ptm/m/n/10 d
@@ -56693,7 +55146,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 t
 ............\T1/ptm/m/n/10 o
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 n
 ............\T1/ptm/m/n/10 d
 ............\glue 2.5 plus 1.49998 minus 0.59998
@@ -57822,7 +56275,7 @@ Completed box being shipped out [2]
 ............\kern-0.17993
 ............\T1/ptm/m/n/10 t
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 n
 ............\T1/ptm/m/n/10 d
 ............\glue 2.5 plus 1.49998 minus 0.59998
@@ -57922,7 +56375,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 l
 ............\T1/ptm/m/n/10 y
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^U (ligature --)
+............\T1/ptm/m/n/10  (ligature --)
 ............\discretionary
 ............\glue(\rightskip) 0.0
 ...........\glue(\baselineskip) 3.05518
@@ -57937,7 +56390,7 @@ Completed box being shipped out [2]
 ............\kern-0.54993
 ............\T1/ptm/m/n/10 s
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 r
 ............\discretionary replacing 2
 .............\T1/ptm/m/n/10 e
@@ -58236,7 +56689,7 @@ Completed box being shipped out [2]
 ............\T1/ptm/m/n/10 x
 ............\T1/ptm/m/n/10 t
 ............\glue 2.5 plus 1.49998 minus 0.59998
-............\T1/ptm/m/n/10 ^^\ (ligature fi)
+............\T1/ptm/m/n/10  (ligature fi)
 ............\T1/ptm/m/n/10 l
 ............\T1/ptm/m/n/10 e
 ............\glue 2.5 plus 1.49998 minus 0.59998
@@ -58753,25 +57206,24 @@ Completed box being shipped out [2]
 .\glue 0.0 plus 1.0fil minus 1.0fil
 
 
-Memory usage before: 10712&150017; after: 352&144743; still untouched: 2824722
+Memory usage before: 10712&147994; after: 352&142720; still untouched: 2826876
 {vertical mode: \end}
  ) 
 Here is how much of TeX's memory you used:
- 6408 strings out of 493633
- 94893 string characters out of 3143378
- 175278 words of memory out of 3000000
- 9588 multiletter control sequences out of 15000+200000
+ 6315 strings out of 494045
+ 93491 string characters out of 3145969
+ 173124 words of memory out of 3000000
+ 9497 multiletter control sequences out of 15000+200000
  32691 words of font info for 49 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 34i,6n,28p,1444b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-1/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on leaflet.pdf (2 pages, 251127 bytes).
+ 715 hyphenation exceptions out of 8191
+ 34i,6n,28p,1505b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on leaflet.pdf (2 pages, 257816 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
