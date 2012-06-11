@@ -85,7 +85,7 @@ notumble, %% -- turns bottom page over for proofreading
 
 %\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
 
-\title{\textit{GNU Privacy Guard}: \\A CompSoc guide to daily use of email encryption\\\vskip1.5em Windows Edition}
+\title{\textit{GNU Privacy Guard}: \\A CompSoc guide to daily use of email encryption\\\vskip1.5em Linux Edition}
 \author{%
   Martin Dehnel\\
   James Fielder\\ 
@@ -125,36 +125,39 @@ notumble, %% -- turns bottom page over for proofreading
 \section{How does it work?}
 To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server, such as \href{http://pgp.mit.edu}{http://pgp.mit.edu}. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
 
-\section{Setup and usage guide, Windows edition}
+\section{Setup and usage guide, Linux edition}
+\textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} \\
+Please don't be put off by the 10 steps to this guide -- most of them are completely obvious when in GPGTools.
+\begin{compactenum}[1.]%itemize}
+    \item Going to show mostly command line stuff but with some Thunderbird.
+\end{compactenum}%itemize}
 
-This guide describes the use of Thunderbird with Enigmail. There are many other setups for windows available, including one for Outlook. This guide also assumes you have setup Thunderbird to connect with your email account. Instructions for a durham.ac.uk account are here (put this in). A more comprehensive guide with screenshots appears on \href{http://durhamgpg.co.uk}{http://durhamgpg.co.uk}
+\section{Key Management}
 
-\begin{compactenum}[1.]
-    \item Install Thunderbird from the Mozilla website, and Gpg4win from their website. Install the Enigmail extension from the addons page in Thunderbird. This is found by going to \textbf{tools>addons} and then searching and installing Enigmail from the addons page.
-    \item Restart Thunderbird to enable Enigmail.
-    \item On restarting Thunderbird you will notice a new menu at the top appear called OpenPGP. Open this menu and go to Key Management. In Key management there should be an option called Generate at the top, select this option.
-    \item If you have correctly setup your email account an identity should already be selected in the Generate menu. Make sure the identity you wish to generate a key for is selected, and set the options for generation as follows: 
-        \begin{itemize}
-            \item Key expires in 5 years. This is best as... think of something cool here.
-            \item In advanced choose an RSA key with 4096 bits.
-            \item Pick a suitably long passphrase (greater than 15 characters) and \textbf{do not forget it}. A passphrase prevents your private key from being used by anyone, even if they get access to your computer. However without the passphrase you will be unable to use the key.
-            \item You may wish to add a comment to the key. This can be anything you like, and is not required.
-        \end{itemize}
-    \item While the key is generating make sure to use your computer for other things, as in order to make sure the key is secure gpg requires a good source of random data.
-    \item At the end of the key generation you will be asked if you wish to generate a revocation certificate. This certificate allows you to mark your public key as no longer valid if you lose access to your private key. Choose yes and make sure to keep the file produced safe. While you can generate a revocation certificate while you have your private key, if you loose it you will no longer be able to.
-    \item All that remains to do now is to set Enigmail to automatically sign all emails and to use PGP/MIME when doing so. Go to \textbf{options>accounts} and select ``OpenPGP Security'' from the options at the side. Enable OpenPGP support if it is not already enabled, and select to sign both non-encrypted and encrypted messages by default and to use PGP/MIME by default.
-    \item At this point you will be ready to try sending an encrypted and signed email to someone. There is an address setup just for this purpose at 'test@durhamgpg.co.uk'. However, first you will have to retrieve the public key for this address... put stuff here.
-    \item It would also be a good idea for you to put your public key onto a keyserver... more stuff here.
-\end{compactenum}
+\subsection{Revocation}
+You may have noticed the option of the `Expiration date' when you created your Key Pair - this is important.
 
-\section{General Advice}
+Make sure you have a backup of your Public/Private Key Pair somewhere safe. But you already take full backups regularly anyway, don't you? :-)
 
-\begin{itemize}
-    \item One of the best features of setting up OpenGPG for an email identity is the ability is cryptographically prove that it was you who sent the email. Thus we suggest that you sign all emails you send, so that if someone does try to impersonate you over email, you can show that you sign all your emails and therefore since the imposter does not have your private key and cannot sign as you, you could not have possibly sent the email.
-    \item Make sure to keep good backups of your keys and revocation certificates. You cannot regenerate a private key from a public one, for obvious reasons.
-    \item In 5 years time, when your key expires, it may be more prudent to replace it with an ECDSA key. Although check if this is still good advice at the time. (Worth putting this?)
-\end{itemize}
+Somewhere mention about saving drafts locally, not on the server?
 
-What else needs to go here? Disadvantages? Something about how to use it in browser? I'll write some maths stuff as well.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\loggingall
 \end{document}
+\endinput
+%%
+%% End of file `leaflet-manual.tex'.

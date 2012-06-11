@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.6.7)  8 JUN 2012 14:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.6.7)  11 JUN 2012 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,7 +480,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 
-<images/logo.png, id=12, 513.92pt x 513.92pt>
+<images/logo.png, id=20, 513.92pt x 513.92pt>
 File: images/logo.png Graphic file (type png)
  <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 110.
@@ -502,12 +502,42 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 
 \LL@boxI=\box28
     [1] ==> [I]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 \LL@boxII=\box29
     [2] ==> [II]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+
+Underfull \hbox (badness 1552) in paragraph at lines 133--134
+[]\T1/ptm/m/n/10 Install Thun-der-bird from the Mozilla web-site, and
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 138.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+\LL@boxIII=\box30
+
+    [3] ==> [III]
+
+Underfull \hbox (badness 6173) in paragraph at lines 146--147
+[]\T1/ptm/m/n/10 At this point you will be ready to try send-
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 146--147
+\T1/ptm/m/n/10 ing an en-crypted and signed email to some-one.
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 146--147
+\T1/ptm/m/n/10 There is an ad-dress setup just for this pur-pose at
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+\LL@boxIV=\box31
+    [4] ==> [IV]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
 (./win-leaflet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
 
 
  *File List*
@@ -585,23 +615,18 @@ omsztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 omxztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
   ot1ptm.fd    2001/06/04 font definitions for OT1/ptm.
 images/logo.png
+  ts1ptm.fd    2001/06/04 font definitions for TS1/ptm.
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `win-leaflet.out' has not changed.
-(rerunfilecheck)             Checksum: 6150B8567491DD0B6700A5822B4DB80D;101.
-Class leaflet Info: Generating empty page 3 on input line 129.
+(rerunfilecheck)             Checksum: 6D1E8595F3591EC35C2D1C09A7170558;225.
+Class leaflet Info: Generating empty page 5 on input line 160.
 
 
-\LL@boxIII=\box30
-    [3] ==> [III]
-Class leaflet Info: Generating empty page 4 on input line 129.
-\LL@boxIV=\box31
-    [4] ==> [IV]
-Class leaflet Info: Generating empty page 5 on input line 129.
 \LL@boxV=\box32
     [5] ==> [V]
-Class leaflet Info: Generating empty page 6 on input line 129.
+Class leaflet Info: Generating empty page 6 on input line 160.
 \LL@boxVI=\box33
     [6] ==> [VI]
 [V VI I] ==>
@@ -609,20 +634,20 @@ Class leaflet Info: Generating empty page 6 on input line 129.
 [II III IV] ==>
 [2] ) 
 Here is how much of TeX's memory you used:
- 6389 strings out of 493629
- 92964 string characters out of 3148779
- 169522 words of memory out of 3000000
- 9585 multiletter control sequences out of 15000+200000
- 32691 words of font info for 49 fonts, out of 3000000 for 9000
+ 6425 strings out of 493629
+ 93383 string characters out of 3148779
+ 177522 words of memory out of 3000000
+ 9606 multiletter control sequences out of 15000+200000
+ 33005 words of font info for 50 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 34i,6n,28p,1448b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,28p,1448b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on win-leaflet.pdf (2 pages, 239245 bytes).
+Output written on win-leaflet.pdf (2 pages, 247386 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
