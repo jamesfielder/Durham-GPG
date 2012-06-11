@@ -53,6 +53,7 @@ notumble, %% -- turns bottom page over for proofreading
 \usepackage{paralist}
 \usepackage[scaled=0.9]{helvet}
 \usepackage{hyperref}
+\usepackage[normalem]{ulem}
 \makeatletter
 \def\ptmTeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.075emX\@}
 \DeclareRobustCommand{\ptmLaTeX}{L\kern-.3em
@@ -127,24 +128,24 @@ To make sure that only the intended recipient can read the email you've sent the
 
 \section{Setup and usage guide, Mac edition}
 \textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} \\
-Please don't be put off by the 10 steps to this guide -- most of them are completely obvious when in GPGTools.
+Please don't be put off by the length of this guide -- most of the steps are completely obvious when in GPGTools.
 \begin{compactenum}[1.]%itemize}
   \item Download and install the GPGTools software from \textbf{\href{http://www.gpgtools.org/}{http://www.gpgtools.org/}}
   \item Open `\textbf{GPG Keychain Access}' from the `Applications' folder - this is like Mac OS X's Keychain, but for Public / Private Keys. It will store your Public and Private Key Pair (in \textbf{bold}), and allow you to send emails to the people for whom you have public keys.
-  \item On opening GPG Keychain Access for the first time, you'll be asked to generate a Public/Private Key Pair. Enter your name and email address, and then choose 'Advanced Options', specifying a Key Length of \textbf{4096} (this is the strongest type of key). Leave everything else.
-  \item Click 'Generate Key' and then when it starts working, bash away randomly at the keyboard for a minute or so: generating random data on the computer helps ensure that your key is as secure as possible.
+  \item On opening GPG Keychain Access for the first time, you'll be asked to generate a Public/Private Key Pair. Enter your name and email address, and then choose `Advanced Options', specifying a Key Length of \textbf{4096} (this is the strongest type of key). Leave everything else.
+  \item Click `Generate Key' and then when it starts working, bash away randomly at the keyboard for a minute or so: generating random data on the computer helps ensure that your key is as secure as possible.
   \item Think of and enter a secure passphrase -- this isn't your Private Key, this is another layer of protection to keep your Private Key secret, but it is still \textbf{very} important. Make sure the passphrase is at least 10 characters long, and don't forget it! Enter it again for confirmation.
   \item You'll now see in the Keychain window a key with your name and email address in \textbf{bold}. You're all set to go! 
   \item Now you just need to look up keys for anyone you might want to email. Add `pgp.mit.edu' to the Keyserver field in `Preferences' (Cmd + ,), and then choose `Search for Key' (Cmd + F) to find someone else's public key. Try searching for `gpg@compsoc.dur.ac.uk' - that's us. If this doesn't work, go to \href{http://pgp.mit.edu}{http://pgp.mit.edu} and search for it manually; you can then save this locally and import it into GPG Keychain Manager for use.
-  \item Assuming you have your emails running in Mac Mail, open it up (from scratch) and you should now be able to send an encrypted email to us. You should now see a locked padlock and a star with a tick in it below the subject line (right hand side) if you've entered the email address of someone whose key you have. Give it a try - send us an email! See our website for other clients.
+  \item Assuming you have your emails running in Mac Mail, open it up (from scratch) and you should now be able to send an encrypted email to us. In the new email window, you should now see a locked padlock and a star with a tick in it below the subject line (right hand side) if you've entered the email address of someone whose key you have. Give it a try - send us an email! See our website for other clients.
   \item You'll have to enter your passphrase every time you send or receive an encrypted email - when you receive one, this is to unlock your private key to decrypt the message. When you send one, this is to unlock your private key to sign the email, to prove that it was you who sent it.
     \item Finally, if you can't find your own email address in the keyserver, you may have to upload it manually -- Durham's firewall doesn't always play nicely with keyservers. Try `Send to Keyserver' in the `Key' menu (Cmd+Shift+K), or if that doesn't work, `Export' your key (\textbf{don't} choose "Allow secret key export"), and then copy and paste the contents of the text file into \href{http://pgp.mit.edu}{pgp.mit.edu}'s "Submit a key" box.
 \end{compactenum}%itemize}
 
-\section{Key Management}
-
+\section{Trust}
+So what happens if you receive a signed email from someone claiming to be \sout{a rich african prince} important: how can you really know whether they are who they say they are? Obviously the only way to \textit{really} know who they are is to have met them, and seen their passport or other form of photo-ID. But if you've never met them, you have to take their identity on trust, unless you can find another way of validating it. What's the easiest way to do that? Find someone else who has met them, someone who will vouch for them. This is the basis behind the concept of \textbf{signatures} for Public Keys; anyone who you've met in real life (or who trusts that they know your identity) can sign your keys to say, e.g. "This is really Martin Dehnel's Key Pair". This way, if you've never met me, but have met and trust James, and you see that James has signed my public key, you can be reasonably sure that my public key was really generated by me, and not by someone pretending to be me. When someone else signs your public key, you should re-upload it to the key-server, so that other people can see these signatures.
 \subsection{Revocation}
-So what happens if someone gets hold of your private key (and passphrase)? Obviously, they would be able to read all of your \"{u}ber-private encrypted emails, and send emails pretending to be you. 
+So what happens if someone gets hold of your private key (and passphrase)? Obviously, they would be able to read all of your \"{u}ber-private encrypted emails, and send emails pretending to be you; not good. Anything from this point is damage limitation, but you can prepare for and prevent this potential calamity ahead of time by creating a \textbf{revocation certificate}. A revocation certificate is a signature on your public key which basically says "I'm not valid, you can't use me", and when updated, prevents anyone else from using it either. You create this certificate as soon as (or soon after) you generate the original key-pair, and then keep it safe. 
 
 You may have noticed the option of the `Expiration date' when you created your Key Pair - this is quite important.
 
