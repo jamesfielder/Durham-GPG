@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.2.15)  12 JUN 2012 12:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.2.15)  12 JUN 2012 12:40
 entering extended mode
 **C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/windows/win-leaflet.tex
 (C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/windows/win-leaflet.tex
@@ -460,7 +460,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 
-<images/logo.png, id=27, 513.92pt x 513.92pt>
+<images/logo.png, id=31, 513.92pt x 513.92pt>
 File: images/logo.png Graphic file (type png)
  <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 110.
@@ -522,16 +522,16 @@ Underfull \hbox (badness 1137) in paragraph at lines 153--154
 \LL@boxV=\box32
     [5] ==> [V]
 
-Underfull \hbox (badness 1062) in paragraph at lines 176--177
+Underfull \hbox (badness 1062) in paragraph at lines 177--178
 \T1/ptm/m/n/10 ing them signed mes-sages may so-licit ques-tions from
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 \LL@boxVI=\box33
     [6] ==> [VI]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
 (C:\Users\James\Documents\GitHub\Durham-GPG\Leaflets\windows\win-leaflet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 
 
  *File List*
@@ -609,19 +609,19 @@ images/logo.png
   ts1ptm.fd    2001/06/04 font definitions for TS1/ptm.
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `win-leaflet.out' has not changed.
-(rerunfilecheck)             Checksum: A3F818247178D2B134C4B2CEF9BB993F;344.
+(rerunfilecheck)             Checksum: 2A5C116814002232C0D63A644A1B967B;401.
 [V VI I] ==>
 [1{C:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
 James/Documents/GitHub/Durham-GPG/Leaflets/windows/images/logo.png>]
 [II III IV] ==>
 [2] ) 
 Here is how much of TeX's memory you used:
- 6340 strings out of 494045
- 93907 string characters out of 3145969
- 181128 words of memory out of 3000000
- 9517 multiletter control sequences out of 15000+200000
+ 6342 strings out of 494045
+ 93929 string characters out of 3145969
+ 182128 words of memory out of 3000000
+ 9518 multiletter control sequences out of 15000+200000
  33005 words of font info for 50 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  34i,6n,28p,1508b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -629,9 +629,9 @@ Here is how much of TeX's memory you used:
 gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on win-leaflet.pdf (2 pages, 259284 bytes).
+Output written on win-leaflet.pdf (2 pages, 261784 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
