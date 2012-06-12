@@ -1,3 +1,4 @@
+
 %\documentclass[a4paper]{leaflet}
 %%\pdfpagewidth=420mm
 %\pdfpageheight=\paperheight
@@ -85,11 +86,12 @@ notumble, %% -- turns bottom page over for proofreading
 
 %\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
 
-\title{\textit{GNU Privacy Guard}: \\A CompSoc guide to daily use of email encryption\\\vskip1.5em Windows Edition}
+\title{\textit{GNU Privacy Guard}: \\A CompSoc guide to daily use of email encryption\\\vskip1em Windows Edition}
 \author{%
   Martin Dehnel\\
   James Fielder\\ 
-  (Durham University)
+  (Durham University)\\
+  durhamgpg.co.uk
   }
 \date{~\docdate}% \vskip11em}
 
@@ -125,9 +127,10 @@ notumble, %% -- turns bottom page over for proofreading
 We think that using GPG is something which everyone should consider, simply because it does away with many issues which are absolutely inherent to email:
 
 \begin{itemize}
-	\item It makes it much much more difficult to forge emails between people who are GPG enabled. With signing you can prove with cryptographic techniques that you sent the email, and not someone else. Imagine if someone emailed your employer and told them you were quitting. If you signed all your email, they would be more likely to doubt that it was really from you.
-	\item If you use Gmail or other such services it allows you to negate having to trust them not to give your email to third parties, or read them themselves. While they can still read signed emails, your encrypted emails would be unreadable for anyone but you and the recipient. Indeed, the US Government can get a copy of your emails without even needing a warrant if you are not a US citizen from Google.  
+	\item It makes it much much more difficult to forge emails between people who are using GPG. With signing you can prove with cryptographic techniques that you sent the email, and not someone else. Imagine if someone emailed your employer and told them you were quitting. If you signed all your email, they might doubt that it was a valid email.
+	\item If you use Gmail or another email provider, with GPG you can be sure that they can't read your emails, or give them to any 3$^{rd}$ parties. While they can still read signed emails, your encrypted emails would be unreadable to anyone but you and the recipient. For example, the US Government can currently get a copy of your emails without even needing a warrant if you are not a US citizen if you use GMail or Hotmail.
 \end{itemize}
+
 
 \section{How does it work?}
 To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server, such as \href{http://pgp.mit.edu}{http://pgp.mit.edu}. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
@@ -137,29 +140,29 @@ To make sure that only the intended recipient can read the email you've sent the
 This guide describes the use of Thunderbird with Enigmail. There are many other setups for windows available, including one for Outlook. This guide also assumes you have setup Thunderbird to connect with your email account. Instructions for a durham.ac.uk account are \href{http://www.dur.ac.uk/cis/email/exchange/eximap/configuring-clients/}{here}. A more comprehensive guide with screenshots appears on \href{http://durhamgpg.co.uk}{http://durhamgpg.co.uk}
 
 \begin{compactenum}[1.]
-    \item Install Thunderbird from the Mozilla website, and Gpg4win from their website. Install the Enigmail extension from the addons page in Thunderbird. This is found by going to \textbf{tools>addons} and then searching and installing Enigmail from the addons page.
+    \item Install Thunderbird from the Mozilla website, and Gpg4win from their website. Install the Enigmail extension from the addons page in Thunderbird. This is found by going to \textbf{Tools>Addons} and then searching and installing Enigmail from the addons page.
     \item Restart Thunderbird to enable Enigmail.
     \item On restarting Thunderbird you will notice a new menu at the top appear called OpenPGP. Open this menu and go to Key Management. In Key management there should be an option called Generate at the top, select this option.
     \item If you have correctly setup your email account an identity should already be selected in the Generate menu. Make sure the identity you wish to generate a key for is selected, and set the options for generation as follows: 
         \begin{itemize}
-            \item Key expires in 5 years. This is best as... think of something cool here.
+            \item Key expires in 5 years. This way if you lose the key, it will stop working after 5 years, meaning no-one can pretend to be you even if you haven't revoked it.
             \item In advanced choose an RSA key with 4096 bits.
             \item Pick a suitably long passphrase (greater than 15 characters) and \textbf{do not forget it}. A passphrase prevents your private key from being used by anyone, even if they get access to your computer. However without the passphrase you will be unable to use the key.
             \item You may wish to add a comment to the key. This can be anything you like, and is not required.
         \end{itemize}
     \item While the key is generating make sure to use your computer for other things, as in order to make sure the key is secure gpg requires a good source of random data.
-    \item At the end of the key generation you will be asked if you wish to generate a revocation certificate. This certificate allows you to mark your public key as no longer valid if you lose access to your private key. Choose yes and make sure to keep the file produced safe. While you can generate a revocation certificate while you have your private key, if you loose it you will no longer be able to.
-    \item All that remains to do now is to set Enigmail to automatically sign all emails and to use PGP/MIME when doing so. Go to \textbf{options>accounts} and select ``OpenPGP Security'' from the options at the side. Enable OpenPGP support if it is not already enabled, and select to sign both non-encrypted and encrypted messages by default and to use PGP/MIME by default.
-    \item At this point you will be ready to try sending an encrypted and signed email to someone. There is an address setup just for this purpose at 'test@durhamgpg.co.uk'. However, first you will have to retrieve the public key for this address. This can be done from within Thunderbird by going to the Key Management menu, looking under Keyserver and searching for a key with ID 0xB76176FE which is the key for test@durhamgpg.co.uk. If you are on the Durham network this might not work, as it requires odd ports (port 11371) to work. If this is the case make sure your browser is configured as per \href{http://durhamgpg.co.uk/ffproxy.png}{here} and search for the key at \href{http://pgp.mit.edu}{http://pgp.mit.edu}. The key for test@durhamgpg.co.uk for example is \href{http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x773B90C7B76176FE}{here}. Copy and paste this into Thunderbird if neccessary using \textbf{Edit>Import Keys from Clipboard} in Key Management.
+    \item At the end of the key generation you will be asked if you wish to generate a revocation certificate. This certificate allows you to mark your public key as no longer valid if you lose access to your private key. Choose yes and make sure to keep the file produced safe. While you can generate a revocation certificate while you have your private key, if you lose it you will no longer be able to.
+    \item All that remains to do now is to set Enigmail to automatically sign all emails and to use PGP/MIME when doing so. Go to \textbf{Options>Accounts} and select ``OpenPGP Security'' from the options at the side. Enable OpenPGP support if it is not already enabled, and select to sign both non-encrypted and encrypted messages by default and to use PGP/MIME by default.
+    \item At this point you will be ready to try sending an encrypted and signed email to someone. There is an address setup just for this purpose at 'test@durhamgpg.co.uk'. However, first you will have to retrieve the public key for this address. This can be done from within Thunderbird by going to the Key Management menu, looking under Keyserver and searching for a key with ID 0xB76176FE which is the key for test@durhamgpg.co.uk. If you are on the Durham network this might not work, as it requires odd ports (port 11371) to work. If this is the case make sure your browser is configured as per \href{http://durhamgpg.co.uk/ffproxy.png}{http://durhamgpg.co.uk/ffproxy.png} and search for the key at \href{http://pgp.mit.edu}{http://pgp.mit.edu}. The key for test@durhamgpg.co.uk for example is \href{http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x773B90C7B76176FE}{here}. Copy and paste this into Thunderbird if necessary using \textbf{Edit>Import Keys from Clipboard} in Key Management.
     \item It would also be a good idea for you to put your public key onto a keyserver so that others can find your key and email you using it. If you click "Display all Keys by Default" in the Key Management window you will see your generated key. If you right click on your key (It will be in bold) and select "Copy Public Keys to Clipboard" and then paste it into the upload keys box on the front of \href{http://pgp.mit.edu}{http://pgp.mit.edu}.
 \end{compactenum}
 
 \section{General Advice}
 
 \begin{itemize}
-    \item One of the best features of setting up OpenGPG for an email identity is the ability is cryptographically prove that it was you who sent the email. Thus we suggest that you sign all emails you send, so that if someone does try to impersonate you over email, you can show that you sign all your emails and therefore since the imposter does not have your private key and cannot sign as you, you could not have possibly sent the email.
+    \item One of the best reasons to setup GPG for an email address is the ability is cryptographically prove that it was you who sent the email. We suggest very strongly that you sign all emails; receiving an unsigned email from your address will not prove that you didn't send it, but any recipients might notice the omission of the signature and confirm its validity directly with you before acting on its content. Conversely, if they do receive a signed email from your address, they can be 100\% sure that it is genuinely from you.
     \item Make sure to keep good backups of your keys and revocation certificates. You cannot regenerate a private key from a public one, for obvious reasons.
-    \item In 5 years time, when your key expires, it may be more prudent to replace it with an ECDSA key. Although check if this is still good advice at the time.
+    \item In 5 years time, when your key expires, it may be more prudent to replace it with an ECDSA key, although check at the time whether this is recommended.
 \end{itemize}
 
 \section{Key Signing and Web of Trust}
@@ -167,13 +170,13 @@ This guide describes the use of Thunderbird with Enigmail. There are many other 
 So what happens if you receive a signed email from someone claiming to be ``\textit{a rich african prince}'': how can you really know whether they are who they say they are? Obviously the only way to \textit{really} know who they are is to have met them, and seen their passport or other form of photo-ID. But if you've never met them, you have to take their identity on trust, unless you can find another way of validating it. What's the easiest way to do that? Find someone else who has met them, someone who will vouch for them. This is the basis behind the concept of \textbf{signatures} for Public Keys; anyone who you've met in real life (or who trusts that they know your identity) can sign your keys to say, e.g. "This is really Martin Dehnel's Key Pair". This way, if you've never met me, but have met and trust James, and you see that James has signed my public key, you can be reasonably sure that my public key was really generated by me, and not by someone pretending to be me. When someone else signs your public key, you should re-upload it to the key-server, so that other people can see these signatures.
 
 \subsection{Revocation}
-So what happens if someone gets hold of your private key (and passphrase)? Obviously, they would be able to read all of your \"{u}ber-private encrypted emails, and send emails pretending to be you; not good. Anything from this point is damage limitation, but you can prepare for and prevent this potential calamity ahead of time by creating a \textbf{revocation certificate}. A revocation certificate is a signature on your public key which basically says "I'm not valid, you can't use me", and when updated, prevents anyone else from using it either. You create this certificate as soon as (or soon after) you generate the original key-pair, and then keep it safe.
+So what happens if someone gets hold of your private key (and passphrase)? Obviously, they would be able to read all of your \"{u}ber-private encrypted emails, and send emails pretending to be you; not good. Anything from this point is damage limitation, but you can prepare for and prevent this potential calamity ahead of time by creating a \textbf{revocation certificate}. A revocation certificate is a signature on your public key which basically says "I'm not valid, you can't use me", and when updated, prevents anyone else from using it either. You create this certificate as soon as (or soon after) you generate the original key-pair, and then keep it safe - don't import it by mistake!
 
 
 \section{Disadvantages}
 
-There are a few disadvantages with using GPG, which we feel we should acknowledge. Firstly, using GPG with webmail is currently a difficult task, although there are projects like \href{http://gpgsend.com/}{http://gpgsend.com/} and \href{http://openpgpjs.org/}{http://openpgpjs.org/} which are attempting to make it easier to use. Remember, without the setup, there is no way you will be able to read encrypted emails in webmail. Reading signed ones will be fine however.
+GPG isn't a perfect solution. It's an encryption scheme bolted on top of the current creaking email architecture: to make everyone in the world's emails properly secure, email providers are going to have to change, not just the users. Using GPG with webmail is currently a difficult task, although there are projects like \href{http://gpgsend.com/}{gpgsend.com} and \href{http://openpgpjs.org/}{openpgpjs.org} which are attempting to make it easier to use. Unfortunately, without GPG installed in whatever system your emails are read on, you'll only see gibberish. Reading signed ones will be fine however.
 
-Most people aren't setup to use GPG, and therefore sending them signed messages may solicit questions from them. Feel free to send them towards our guides at \href{http://durhamgpg.co.uk}{http://durhamgpg.co.uk}.
+Most people aren't setup to use GPG, and therefore sending them signed messages may solicit questions from them. Feel free to send them towards our guides at \href{http://durhamgpg.co.uk}{durhamgpg.co.uk}.
 
 \end{document}

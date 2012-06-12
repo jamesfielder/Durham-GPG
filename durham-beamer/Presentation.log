@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  29 MAY 2012 11:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 JUN 2012 17:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -983,7 +983,7 @@ t line 206.
 res/logo_purple-eps-converted-to.pdf>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 224.
+(Font)              size <5> substituted on input line 222.
 
 [2
 
@@ -991,16 +991,17 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [4
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 264.
- (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 264.
+] <pictures/wot.png, id=38, 905.3825pt x 707.64375pt>
+File: pictures/wot.png Graphic file (type png)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [5
+<use pictures/wot.png>
+Package pdftex.def Info: pictures/wot.png used on input line 243.
+(pdftex.def)             Requested size: 279.5743pt x 218.51813pt.
+ [5
+
+ <./pictures/wot.png>] [6
+
+] [7
 
 ]
 \tf@nav=\write7
@@ -1012,12 +1013,11 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@snm=\write9
 \openout9 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
-
-(./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+ (./Presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1025,23 +1025,23 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 16285 strings out of 493633
- 300112 string characters out of 3143378
- 370398 words of memory out of 3000000
- 19184 multiletter control sequences out of 15000+200000
- 10263 words of font info for 39 fonts, out of 3000000 for 9000
+ 16241 strings out of 493633
+ 299202 string characters out of 3143378
+ 369413 words of memory out of 3000000
+ 19152 multiletter control sequences out of 15000+200000
+ 6053 words of font info for 22 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  49i,11n,53p,432b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
 b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Presentation.pdf (5 pages, 60811 bytes).
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
+Output written on Presentation.pdf (7 pages, 148436 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
