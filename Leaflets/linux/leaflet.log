@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.2.15)  12 JUN 2012 12:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.2.15)  12 JUN 2012 12:45
 entering extended mode
 **C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/linux/leaflet.tex
 (C:/Users/James/Documents/GitHub/Durham-GPG/Leaflets/linux/leaflet.tex
@@ -606,7 +606,7 @@ images/logo.png
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `leaflet.out' has not changed.
-(rerunfilecheck)             Checksum: 2A5C116814002232C0D63A644A1B967B;401.
+(rerunfilecheck)             Checksum: 1219BDCDED8473C956CBDB3BC32640AD;399.
 [V VI I] ==>
 [1{C:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
 James/Documents/GitHub/Durham-GPG/Leaflets/linux/images/logo.png>]
@@ -615,16 +615,16 @@ James/Documents/GitHub/Durham-GPG/Leaflets/linux/images/logo.png>]
 Here is how much of TeX's memory you used:
  6341 strings out of 494045
  93840 string characters out of 3145969
- 182126 words of memory out of 3000000
+ 183126 words of memory out of 3000000
  9518 multiletter control sequences out of 15000+200000
  33005 words of font info for 50 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 34i,6n,28p,1502b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,28p,1502b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on leaflet.pdf (2 pages, 261890 bytes).
+Output written on leaflet.pdf (2 pages, 262246 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
