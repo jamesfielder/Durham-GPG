@@ -27,7 +27,7 @@
 \def\filename{leaflet.tex}
 \def\fileversion{v0.1}   % change this when leaflet-manual changed, too.
 \def\filedate{2012/05/29}
-\def\docdate {May 2012} % change this when leaflet-manual changed, too.
+\def\docdate {June 2012} % change this when leaflet-manual changed, too.
 \listfiles
 \errorcontextlines=99
 \documentclass[
@@ -126,15 +126,15 @@ notumble, %% -- turns bottom page over for proofreading
 We think that using GPG is something which everyone should consider, simply because it does away with many issues which are absolutely inherent to email:
 
 \begin{itemize}
-	\item It makes it much much more difficult to forge emails between people who are GPG enabled. With signing you can prove with cryptographic techniques that you sent the email, and not someone else. Imagine if someone emailed your employer and told them you were quiting. If you signed all your email, they might doubt that it is a valid email.
-	\item If you use Gmail or other such services it allows you to negate having to trust them not to give your email to third parties, or read them themselves. While they can still read signed emails, your encrypted emails would be unreadable for anyone but you and the recipient. Indeed, the FBI can get a copy of your email without even needing a warrant if you are not a US citizen from Google.  
+	\item It makes it much much more difficult to forge emails between people who are GPG enabled. With signing you can prove with cryptographic techniques that you sent the email, and not someone else. Imagine if someone emailed your employer and told them you were quitting. If you signed all your email, they would be more likely to doubt that it was really from you.
+	\item If you use Gmail or other such services it allows you to negate having to trust them not to give your email to third parties, or read them themselves. While they can still read signed emails, your encrypted emails would be unreadable for anyone but you and the recipient. Indeed, the US Government can get a copy of your emails without even needing a warrant if you are not a US citizen from Google.  
 \end{itemize}
 
 \section{How does it work?}
 To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server, such as \href{http://pgp.mit.edu}{http://pgp.mit.edu}. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
 
 \section{Setup and usage guide, Mac edition}
-\textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://gpg.compsoc.dur.ac.uk}{http://gpg.compsoc.dur.ac.uk}. Also go to the website for full screenshots of this walkthrough.)} \\
+\textit{(If you are using Windows or Linux please go to CompSoc's GPG website, \href{http://www.durhamgpg.co.uk}{www.durhamgpg.co.uk}. Also go to the website for full screenshots of this walkthrough.)} \\
 Please don't be put off by the length of this guide -- most of the steps are completely obvious when in GPGTools.
 \begin{compactenum}[1.]%itemize}
   \item Download and install the GPGTools software from \textbf{\href{http://www.gpgtools.org/}{http://www.gpgtools.org/}}
