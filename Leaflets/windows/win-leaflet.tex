@@ -122,6 +122,13 @@ notumble, %% -- turns bottom page over for proofreading
 
 \textbf{GPG} allows you to send \textbf{completely secure} emails to anyone else with an email address and a key: no special email provider is needed.
 
+We think that using GPG is something which everyone should consider, simply because it does away with many issues which are absolutely inherent to email:
+
+\begin{itemize}
+	\item It makes it much much more difficult to forge emails between people who are GPG enabled. With signing you can prove with cryptographic techniques that you sent the email, and not someone else. Imagine if someone emailed your employer and told them you were quiting. If you signed all your email, they might doubt that it is a valid email.
+	\item If you use Gmail or other such services it allows you to negate having to trust them not to give your email to third parties, or read them themselves. While they can still read signed emails, your encrypted emails would be unreadable for anyone but you and the recipient. Indeed, the FBI can get a copy of your email without even needing a warrant if you are not a US citizen from Google.  
+\end{itemize}
+
 \section{How does it work?}
 To make sure that only the intended recipient can read the email you've sent them, you need to encrypt the message. This means that to anyone without the right password (or `key') the message will look like random gibberish. \\As you may or may not have ever met the person you want to email, you probably won't have a way of agreeing a password without knowing for certain that no-one can intercept it (meaning they could read your messages too). Instead, as an analogy, you create an \textit{electronic padlock and key}, or \textbf{Public / Private Key Pair}. The Public Key is the padlock, and the Private Key is the key you use to unlock it. You mustn't send anyone a copy of the private key over the internet as someone could copy it, but instead you can send out an unlocked padlock (the public key) to anyone who wants to send you an email; this way they can `lock' (encrypt) the message with the padlock, but no-one, not even the sender can `unlock' (decrypt) it -- only you, the person with the private key can do that.\\ So that anyone can send you an email securely, you distribute your `open padlock' (Public Key) freely using a Key Server, such as \href{http://pgp.mit.edu}{http://pgp.mit.edu}. Anyone can type in your name or email address and find your public key this way, but don't worry, there's no way anyone can work backwards from the Public Key to work out anything about your Private Key.
 
@@ -155,6 +162,17 @@ This guide describes the use of Thunderbird with Enigmail. There are many other 
     \item In 5 years time, when your key expires, it may be more prudent to replace it with an ECDSA key. Although check if this is still good advice at the time.
 \end{itemize}
 
+\section{Key Signing and Web of Trust}
 
+While reading this guide, you might have realized a slight flaw in the system: anyone could generate a key pretending to be you, and then people would start using this key as though it is yours once they found it on the database. However, there is a solution to this, which is called key signing. If a key is signed by another persons key it means that that those people have met, exchanged ID to prove who they are, and signed each others keys. This way, you end up with a web of trusted keys between people, and can see if a key is legitimate or not. 
+
+A guide to doing this is beyond the scope of this leaflet (and there isn't really space). More details of how to do this will be included on the website.
+
+
+\section{Disadvantages}
+
+There are a few disadvantages with using GPG, which we feel we should acknowledge. Firstly, using GPG with webmail is currently a difficult task, although there are projects like \href{http://gpgsend.com/}{http://gpgsend.com/} and \href{http://openpgpjs.org/}{http://openpgpjs.org/} which are attempting to make it easier to use. Remember, without the setup, there is no way you will be able to read encrypted emails in webmail. Reading signed ones will be fine however.
+
+Most people aren't setup to use GPG, and therefore sending them signed messages may solicit questions from them. Feel free to send them towards our guides at \href{http://durhamgpg.co.uk}{http://durhamgpg.co.uk}.
 
 \end{document}
