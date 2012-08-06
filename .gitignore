@@ -4,3 +4,4 @@ Leaflets/template/leaflet.pdf
 *.aux
 *.log
 *.synctex.gz
+*.out
