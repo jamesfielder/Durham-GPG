@@ -1,3 +1,6 @@
 .DS_Store
 Leaflets/template/leaflet.pdf
 *.pdf
+*.aux
+*.log
+*.synctex.gz
